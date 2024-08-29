@@ -1,0 +1,619 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "CH32X035G8U6"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH32X035G8U6"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:QFN-28_L4.0-W4.0-P0.40-BL-EP2.8"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/489883.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7437027"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C7437027"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CH32X035G8U6_0_1"
+			(rectangle
+				(start -36.83 17.78)
+				(end 39.37 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -35.5601 16.51)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 15.24 0)
+				(length 2.54)
+				(name "PC15/CC2/T2C3_/T1ET_"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 -7.62 0)
+				(length 2.54)
+				(name "PA5/SCK/TX4_/O2N0/A5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 -10.16 0)
+				(length 2.54)
+				(name "PA6/MISO/T3C1/T1BK_/O1N0/A6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 -12.7 0)
+				(length 2.54)
+				(name "PA7/MOSI/T3C2/T1C1N_/TX1_/O2P0/A7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 -15.24 0)
+				(length 2.54)
+				(name "PB0/TX4/T1C2N_/O1P0/A8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 -17.78 0)
+				(length 2.54)
+				(name "PB3/TX3/T2C3_/T2C3N_/O2P1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -17.78 180)
+				(length 2.54)
+				(name "PB4/T2C4_/T3C1_/T2BK_/RX3/O1P2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -15.24 180)
+				(length 2.54)
+				(name "PB1/T1C3N_/RX4/O2N1/A9/PB5/O1O1/T3C2_/T1BK"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -12.7 180)
+				(length 2.54)
+				(name "PB6/T1C1N/CTS3/O1N1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -10.16 180)
+				(length 2.54)
+				(name "PB7/T1C2N/RTS3_/O2P2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -7.62 180)
+				(length 2.54)
+				(name "PB8/T1C3N/O1P1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 12.7 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -5.08 180)
+				(length 2.54)
+				(name "PB9/T1C1/MCO/TX4_"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 -2.54 180)
+				(length 2.54)
+				(name "PB10/TX1/T1C2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 0 180)
+				(length 2.54)
+				(name "PB11/T1C3/T2C1N_/RX1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 2.54 180)
+				(length 2.54)
+				(name "PB12/T1C4_/T2C2N_"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 5.08 180)
+				(length 2.54)
+				(name "PC19/DCK/T2C1_/T3C1_/I2C_/RX3_/C1P0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 7.62 180)
+				(length 2.54)
+				(name "PC18/DIO/TX3_/T2C1N_/T3C2_/I2C_/T1ET_"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 10.16 180)
+				(length 2.54)
+				(name "PC16/UDM/T1C4/TX4_/I2C_/RX4_/CTS1/PC11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 12.7 180)
+				(length 2.54)
+				(name "PC17/UDP/RTS1/TX4_/I2C_/RX4_/T1ET/PC10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 41.91 15.24 180)
+				(length 2.54)
+				(name "PC14/CC1/T1C3_/T2C2_"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 20.32 270)
+				(length 2.54)
+				(name "29"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 10.16 0)
+				(length 2.54)
+				(name "PC0/TX2_/T2C4_/T1C1_/T2BK_/A10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 7.62 0)
+				(length 2.54)
+				(name "PC3/T1C4_/T2C3N_/T2C1N_/C1N0/A13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 5.08 0)
+				(length 2.54)
+				(name "PA0/T2C1/CTS2/C1P1/A0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 2.54 0)
+				(length 2.54)
+				(name "PA1/RTS2/T2C2/C1O/O1N2/O2N2/A1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 0 0)
+				(length 2.54)
+				(name "PA2/TX2/T2C3/O2O1/T2ET_/A2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 -2.54 0)
+				(length 2.54)
+				(name "PA3/T2C4/O1O0/T3C1_/RX2/A3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -39.37 -5.08 0)
+				(length 2.54)
+				(name "PA4/CS/O2O0/T3C2_/A4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
+)
