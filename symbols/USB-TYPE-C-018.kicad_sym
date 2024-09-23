@@ -1,158 +1,459 @@
-(kicad_symbol_lib (version 20210201) (generator TousstNicolas/JLC2KiCad_lib)
-  (symbol "USB-TYPE-C-018"   (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at 0 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "USB-TYPE-C-018" (id 1) (at 0 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "footprint:USB-C_SMD-TYPE-C-31-M-12" (id 2) (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://so.szlcsc.com/global.html?c=&k=C165948" (id 3) (at -2.286 0.127 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "ki_keywords" "C2927038" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C2927038" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    
-    (symbol "USB-TYPE-C-018_0_1"
-      (rectangle
-        (start -8.89001778003556 12.700025400050801)
-        (end 8.89001778003556 -12.700025400050801)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (circle
-        (center -7.62001524003048 11.430022860045721)
-        (radius 0.381000762001524)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin unspecified line
-        (at -11.43 8.89 0)
-        (length 2.54)
-        (name "GND" (effects (font (size 1 1))))
-        (number "B1" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at -11.43 6.35 0)
-        (length 2.54)
-        (name "VBUS" (effects (font (size 1 1))))
-        (number "B4" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at -11.43 3.81 0)
-        (length 2.54)
-        (name "CC2" (effects (font (size 1 1))))
-        (number "B5" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at -11.43 1.27 0)
-        (length 2.54)
-        (name "DP2" (effects (font (size 1 1))))
-        (number "B6" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at -11.43 -1.27 0)
-        (length 2.54)
-        (name "DN2" (effects (font (size 1 1))))
-        (number "B7" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at -11.43 -3.81 0)
-        (length 2.54)
-        (name "SBU2" (effects (font (size 1 1))))
-        (number "B8" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at -11.43 -6.35 0)
-        (length 2.54)
-        (name "VBUS" (effects (font (size 1 1))))
-        (number "B9" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at -11.43 -8.89 0)
-        (length 2.54)
-        (name "GND" (effects (font (size 1 1))))
-        (number "B12" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 11.43 -8.89 180)
-        (length 2.54)
-        (name "GND" (effects (font (size 1 1))))
-        (number "A1" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 11.43 -6.35 180)
-        (length 2.54)
-        (name "VBUS" (effects (font (size 1 1))))
-        (number "A4" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 11.43 -3.81 180)
-        (length 2.54)
-        (name "CC1" (effects (font (size 1 1))))
-        (number "A5" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 11.43 -1.27 180)
-        (length 2.54)
-        (name "DP1" (effects (font (size 1 1))))
-        (number "A6" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 11.43 1.27 180)
-        (length 2.54)
-        (name "DN1" (effects (font (size 1 1))))
-        (number "A7" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 11.43 3.81 180)
-        (length 2.54)
-        (name "SBU1" (effects (font (size 1 1))))
-        (number "A8" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 11.43 6.35 180)
-        (length 2.54)
-        (name "VBUS" (effects (font (size 1 1))))
-        (number "A9" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 11.43 8.89 180)
-        (length 2.54)
-        (name "GND" (effects (font (size 1 1))))
-        (number "A12" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 1.27 -15.24 90)
-        (length 2.54000508001016)
-        (name "SH" (effects (font (size 1 1))))
-        (number "13" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at 1.27 15.24 270)
-        (length 2.54000508001016)
-        (name "SH" (effects (font (size 1 1))))
-        (number "2" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at -1.27 15.24 270)
-        (length 2.54000508001016)
-        (name "SH" (effects (font (size 1 1))))
-        (number "3" (effects (font (size 1 1))))
-      )
-      (pin unspecified line
-        (at -1.27 -15.24 90)
-        (length 2.54000508001016)
-        (name "SH" (effects (font (size 1 1))))
-        (number "0" (effects (font (size 1 1))))
-      )
-    )
-  )
-
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "USB-TYPE-C-018"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-TYPE-C-018"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:USB-C_SMD-TYPE-C-31-M-12"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://so.szlcsc.com/global.html?c=&k=C165948"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2927038"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2927038"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USB-TYPE-C-018_0_1"
+			(rectangle
+				(start -8.89 12.7)
+				(end 8.89 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -7.62 11.43)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -1.27 -15.24 90)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 1.27 15.24 270)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -1.27 15.24 270)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -8.89 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 8.89 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -6.35 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -3.81 180)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -1.27 180)
+				(length 2.54)
+				(name "DP1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 1.27 180)
+				(length 2.54)
+				(name "DN1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 3.81 180)
+				(length 2.54)
+				(name "SBU1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 6.35 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 8.89 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -8.89 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 6.35 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 3.81 0)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 1.27 0)
+				(length 2.54)
+				(name "DP2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -1.27 0)
+				(length 2.54)
+				(name "DN2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -3.81 0)
+				(length 2.54)
+				(name "SBU2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -6.35 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "USB-TYPE-C-018_1_1"
+			(pin unspecified line
+				(at 1.27 -15.24 90)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+	)
 )
