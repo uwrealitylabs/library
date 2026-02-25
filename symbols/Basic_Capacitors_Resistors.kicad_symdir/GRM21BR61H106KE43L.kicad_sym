@@ -34,7 +34,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Basic_Capacitors_Resistors:C0805"
+		(property "Footprint" "Basic_Capacitors_Resistors:C0805"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

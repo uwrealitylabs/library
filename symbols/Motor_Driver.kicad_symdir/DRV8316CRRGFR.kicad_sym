@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Motor_Driver:VQFN-40_L7.0-W5.0-P0.50-BL-EP5.7"
+		(property "Footprint" "Motor_Driver:VQFN-40_L7.0-W5.0-P0.50-BL-EP5.7"
 			(at 12.192 -34.544 0)
 			(show_name no)
 			(do_not_autoplace no)

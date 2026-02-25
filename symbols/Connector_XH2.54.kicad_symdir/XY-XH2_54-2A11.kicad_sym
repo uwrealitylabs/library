@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Connector_XH2.54:CONN-TH_2P-P2.50_2.54-2P-ZZDK"
+		(property "Footprint" "Connector_XH2.54:CONN-TH_2P-P2.50_2.54-2P-ZZDK"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

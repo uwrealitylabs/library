@@ -34,7 +34,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Inductor:IND-SMD_L3.0-W3.0_PRS3015"
+		(property "Footprint" "Inductor:IND-SMD_L3.0-W3.0_PRS3015"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

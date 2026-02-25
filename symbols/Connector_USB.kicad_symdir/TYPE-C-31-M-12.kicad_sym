@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Connector_USB:USB-C_SMD-TYPE-C-31-M-12_1"
+		(property "Footprint" "Connector_USB:USB-C_SMD-TYPE-C-31-M-12_1"
 			(at 21.59 -18.796 0)
 			(show_name no)
 			(do_not_autoplace no)

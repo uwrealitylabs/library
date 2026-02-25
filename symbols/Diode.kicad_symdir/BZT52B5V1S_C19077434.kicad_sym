@@ -34,7 +34,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Diode:SOD-323_L1.7-W1.3-LS2.6-RD"
+		(property "Footprint" "Diode:SOD-323_L1.7-W1.3-LS2.6-RD"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

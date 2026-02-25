@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Device:X322512MSB4SI"
+		(property "Footprint" "Oscillator:X322512MSB4SI"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

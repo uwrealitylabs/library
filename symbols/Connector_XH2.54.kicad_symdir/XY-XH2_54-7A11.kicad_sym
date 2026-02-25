@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Connector_XH2.54:HDR-TH_7P-P2.50-V-F-1"
+		(property "Footprint" "Connector_XH2.54:HDR-TH_7P-P2.50-V-F-1"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

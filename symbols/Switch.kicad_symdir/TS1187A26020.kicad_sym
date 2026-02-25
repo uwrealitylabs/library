@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Switch:SW-SMD_4P-L5.2-W5.2-1"
+		(property "Footprint" "Switch:SW-SMD_4P-L5.2-W5.2-1"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

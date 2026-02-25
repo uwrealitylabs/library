@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Connector_SH1.0:CONN-SMD_5P-P1.00_XYECONN_XY-SH1.0-5A61"
+		(property "Footprint" "Connector_SH1.0:CONN-SMD_5P-P1.00_XYECONN_XY-SH1.0-5A61"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

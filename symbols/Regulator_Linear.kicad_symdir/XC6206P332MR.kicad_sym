@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Regulator_Linear:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(property "Footprint" "Regulator_Linear:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

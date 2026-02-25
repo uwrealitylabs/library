@@ -34,7 +34,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/LED:LED0603-R-RD_WHITE"
+		(property "Footprint" "LED:LED0603-R-RD_WHITE"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
