@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 0 1.27 0)
+			(at -2.032 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,9 +19,10 @@
 			)
 		)
 		(property "Value" "XY-XH2_54-3A21"
-			(at 0 -2.54 0)
+			(at 12.192 -17.018 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78,6 +79,7 @@
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118,7 +120,18 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "XY-XH2_54-3A21_1_1"
+			(text "XH2.54 3A21"
+				(at 4.064 0 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+			(pin passive line
 				(at -5.08 2.54 0)
 				(length 2.54)
 				(name "1"
@@ -136,7 +149,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "2"
@@ -154,7 +167,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "3"
