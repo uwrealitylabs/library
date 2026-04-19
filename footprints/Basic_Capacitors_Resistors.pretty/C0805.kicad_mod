@@ -1,41 +1,268 @@
-(module "C0805" (layer F.Cu) (tedit 699D71CC)
-  (descr "C0805 footprint")
-  (tags "C0805 footprint C440198")
-  (attr smd)
-  (fp_text reference REF** (at 0 -2.903607) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value C0805 (at 0 2.903607) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_arc (start 1.811201 0.751207) (end 1.963602 0.751207) (angle 90) (layer F.SilkS) (width 0.1524))
-  (fp_arc (start 1.811201 -0.751207) (end 1.811201 -0.903607) (angle 90) (layer F.SilkS) (width 0.1524))
-  (fp_arc (start -1.811201 0.751207) (end -1.811201 0.903607) (angle 90) (layer F.SilkS) (width 0.1524))
-  (fp_arc (start -1.811201 -0.751207) (end -1.963602 -0.751207) (angle 90) (layer F.SilkS) (width 0.1524))
-  (fp_circle (center -1 0.625095) (end -0.970028 0.625095) (layer F.SilkS) (width 0.059995))
-  (fp_line (start 1.811201 -0.903607) (end 0.401194 -0.903607) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.401194 0.903607) (end 1.811201 0.903607) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 1.963602 0.751207) (end 1.963602 -0.751207) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -1.811201 -0.903607) (end -0.401194 -0.903607) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.401194 0.903607) (end -1.811201 0.903607) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -1.963602 0.751207) (end -1.963602 -0.751207) (layer F.SilkS) (width 0.1524))
-  (pad 2 smd rect (at 1 0) (size 1.410008 1.350013) (layers F.Cu F.Mask F.Paste))
-  (pad 1 smd rect (at -1 0) (size 1.410008 1.350013) (layers F.Cu F.Mask F.Paste))
-  (fp_poly (pts (xy -1 0.624994) (xy -1 -0.624994) (xy -0.5 -0.624994) (xy -0.5 0.624994)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy 1 -0.624994) (xy 1 0.624994) (xy 0.5 0.624994) (xy 0.5 -0.624994)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy -1 0.624994) (xy -1 -0.624994) (xy 1 -0.624994) (xy 1 0.624994)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy -1.704978 0.640005) (xy -1.704978 -0.63998) (xy -1.654966 -0.689992) (xy -0.504953 -0.689992)
-     (xy -0.454966 -0.63998) (xy -0.449936 -0.229947) (xy -0.899949 -0.229947) (xy -0.899949 0.220041)
-     (xy -0.459944 0.220041) (xy -0.454966 0.640005) (xy -0.504953 0.690018) (xy -1.654966 0.690018)) (layer F.Paste) (width 0.15))
-  (fp_poly (pts (xy 1.704978 -0.640005) (xy 1.704978 0.63998) (xy 1.654966 0.689992) (xy 0.504953 0.689992)
-     (xy 0.454966 0.63998) (xy 0.449936 0.229947) (xy 0.899949 0.229947) (xy 0.899949 -0.220041)
-     (xy 0.459944 -0.220041) (xy 0.454966 -0.640005) (xy 0.504953 -0.690018) (xy 1.654966 -0.690018)) (layer F.Paste) (width 0.15))
-  (fp_text user ${REFERENCE} (at 0 0) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model ../../packages3d/Basic_Capacitors_Resistors.3dshapes/C0805.step
-    (at (xyz -0.05563 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "C0805"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "C0805 footprint")
+	(tags "C0805 footprint C440198")
+	(property "Reference" "REF**"
+		(at 0 -2.903607 0)
+		(layer "F.SilkS")
+		(uuid "23af110a-a858-4185-8473-d8f7227b43fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C0805"
+		(at 0 2.903607 0)
+		(layer "F.Fab")
+		(uuid "9713f29f-5dd1-47bf-9e94-c21c57749789")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15099ddf-2288-4fc5-8fe8-06390d14655e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84e195ab-c18d-4f28-9402-4dde9f8eebe1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.963602 0.751207)
+		(end -1.963602 -0.751207)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c563331-162c-4eed-bc32-d72b963de0f9")
+	)
+	(fp_line
+		(start -1.811201 -0.903607)
+		(end -0.401194 -0.903607)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d1f2bab-32c1-4090-b8b4-4d087f1aa967")
+	)
+	(fp_line
+		(start -0.401194 0.903607)
+		(end -1.811201 0.903607)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6a2944e-d3c0-4e80-b88a-49cfbcd8a5ef")
+	)
+	(fp_line
+		(start 0.401194 0.903607)
+		(end 1.811201 0.903607)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45d6c7b8-bc98-4ca5-87c8-43b81f83b7a2")
+	)
+	(fp_line
+		(start 1.811201 -0.903607)
+		(end 0.401194 -0.903607)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a78b824-c080-4a09-8978-4faa9d339b72")
+	)
+	(fp_line
+		(start 1.963602 0.751207)
+		(end 1.963602 -0.751207)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff8d604c-94c6-404d-94c8-9e59d9c6aaf3")
+	)
+	(fp_arc
+		(start -1.963602 -0.751207)
+		(mid -1.918965 -0.858971)
+		(end -1.811201 -0.903608)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20725c70-54d7-409b-83bd-89c3430cb618")
+	)
+	(fp_arc
+		(start -1.811201 0.903607)
+		(mid -1.918964 0.85897)
+		(end -1.963601 0.751207)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee3586b7-657f-4b7f-92b6-f69e442ff4c3")
+	)
+	(fp_arc
+		(start 1.811201 -0.903607)
+		(mid 1.918964 -0.85897)
+		(end 1.963601 -0.751207)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7d6cc8c-d375-4979-ac51-b00626d4b8de")
+	)
+	(fp_arc
+		(start 1.963602 0.751207)
+		(mid 1.918965 0.858971)
+		(end 1.811201 0.903608)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d050a84-e83d-4174-8b9e-fe3095ed086e")
+	)
+	(fp_circle
+		(center -1 0.625095)
+		(end -0.970028 0.625095)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "19c73ecd-7a7b-4642-8b50-951690e10dd7")
+	)
+	(fp_poly
+		(pts
+			(xy -1 0.624994) (xy -1 -0.624994) (xy -0.5 -0.624994) (xy -0.5 0.624994)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "caf7fefb-5300-4019-a5ba-e16cc13cfabd")
+	)
+	(fp_poly
+		(pts
+			(xy -1 0.624994) (xy -1 -0.624994) (xy 1 -0.624994) (xy 1 0.624994)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ac383819-6c0c-409e-a70f-6981e446cc85")
+	)
+	(fp_poly
+		(pts
+			(xy 1 -0.624994) (xy 1 0.624994) (xy 0.5 0.624994) (xy 0.5 -0.624994)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4f850aa3-3480-4ea7-89ee-8f71f232fbf8")
+	)
+	(fp_poly
+		(pts
+			(xy -1.704978 0.640005) (xy -1.704978 -0.63998) (xy -1.654966 -0.689992) (xy -0.504953 -0.689992)
+			(xy -0.454966 -0.63998) (xy -0.449936 -0.229947) (xy -0.899949 -0.229947) (xy -0.899949 0.220041)
+			(xy -0.459944 0.220041) (xy -0.454966 0.640005) (xy -0.504953 0.690018) (xy -1.654966 0.690018)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "66bbfae7-a89a-4d86-a7fc-7ba7421af3aa")
+	)
+	(fp_poly
+		(pts
+			(xy 1.704978 -0.640005) (xy 1.704978 0.63998) (xy 1.654966 0.689992) (xy 0.504953 0.689992) (xy 0.454966 0.63998)
+			(xy 0.449936 0.229947) (xy 0.899949 0.229947) (xy 0.899949 -0.220041) (xy 0.459944 -0.220041) (xy 0.454966 -0.640005)
+			(xy 0.504953 -0.690018) (xy 1.654966 -0.690018)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "8e113748-5afa-4798-93c0-c7d89a799740")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "28852097-abc3-4b6f-87bc-bda1c42285e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 1.410008 1.350013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "11b1f566-093b-40b5-975d-2486e56d6467")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 1.410008 1.350013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fbaaae10-abac-4c73-80f6-df7fee77c446")
+	)
+	(embedded_fonts no)
+	(model "../../packages3d/Basic_Capacitors_Resistors.3dshapes/C0805.step"
+		(offset
+			(xyz 0 0 0.625)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -1,30 +1,169 @@
-(module "CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61" (layer F.Cu) (tedit 699EB71B)
-  (descr "CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61 footprint")
-  (tags "CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61 footprint C19271997")
-  (attr smd)
-  (fp_text reference REF** (at 0 -3.999873) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61 (at 0 4.849987) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -1.468936 2.849987) (end 1.469012 2.849987) (layer F.SilkS) (width 0.254001))
-  (fp_line (start 1.53109 -1.612014) (end 2.599975 -1.612014) (layer F.SilkS) (width 0.254001))
-  (fp_line (start 2.599975 -1.612014) (end 2.599975 0.768809) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -1.531191 -1.612014) (end -2.599975 -1.612014) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -2.599975 -1.612014) (end -2.599975 0.768809) (layer F.SilkS) (width 0.254001))
-  (pad 4 smd rect (at 2.300051 2.000127 180) (size 1.2 2) (layers F.Cu F.Mask F.Paste))
-  (pad 1 smd rect (at -0.999924 -1.999873 180) (size 0.6 1.6) (layers F.Cu F.Mask F.Paste))
-  (pad 2 smd rect (at 0.000076 -1.999873 180) (size 0.6 1.6) (layers F.Cu F.Mask F.Paste))
-  (pad 3 smd rect (at 1.000076 -1.999873 180) (size 0.6 1.6) (layers F.Cu F.Mask F.Paste))
-  (pad 5 smd rect (at -2.300152 2.000127 180) (size 1.2 2) (layers F.Cu F.Mask F.Paste))
-  (fp_poly (pts (xy -1.580061 -2.374016) (xy -1.961062 -2.628016) (xy -1.961062 -2.120015)) (layer F.SilkS) (width 0.12))
-  (fp_text user ${REFERENCE} (at 0 0.425057) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model ../../packages3d/Connector_SH1.0.3dshapes/CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61.step
-    (at (xyz 0 -0.013425 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61 footprint")
+	(tags "CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61 footprint C19271997")
+	(property "Reference" "REF**"
+		(at 0 -3.999873 0)
+		(layer "F.SilkS")
+		(uuid "afe6f035-66e3-4098-aa97-6d17b3301a05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61"
+		(at 0 4.849987 0)
+		(layer "F.Fab")
+		(uuid "824fcda7-3361-48d4-8616-319323a4b7e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e6b9785-d38e-4711-b022-3a2e4e42a8b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f60f1e92-fa3f-4c57-a8fb-9b5d615cf6aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.599975 -1.612014)
+		(end -2.599975 0.768809)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e095d797-ab2b-4aa1-b3f5-ac79caf5a67e")
+	)
+	(fp_line
+		(start -1.531191 -1.612014)
+		(end -2.599975 -1.612014)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "888a90cf-e6df-4e2d-a33b-178e96c76629")
+	)
+	(fp_line
+		(start -1.468936 2.849987)
+		(end 1.469012 2.849987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bdee6576-8597-4191-bcd7-a73dd00875e1")
+	)
+	(fp_line
+		(start 1.53109 -1.612014)
+		(end 2.599975 -1.612014)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e5c8c76-d8d4-4889-88eb-50e262683748")
+	)
+	(fp_line
+		(start 2.599975 -1.612014)
+		(end 2.599975 0.768809)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f324a45-12b8-4b74-b77b-c77cd0451fc2")
+	)
+	(fp_poly
+		(pts
+			(xy -1.580061 -2.374016) (xy -1.961062 -2.628016) (xy -1.961062 -2.120015)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1a11290a-d81b-48aa-af07-4aa2c750f7bd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.425057 0)
+		(layer "F.Fab")
+		(uuid "9129646e-1798-4a6d-a698-d2baa537dd4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.999924 -1.999873 180)
+		(size 0.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0ae19d40-f4f6-489a-999c-a08e53db2519")
+	)
+	(pad "2" smd rect
+		(at 0.000076 -1.999873 180)
+		(size 0.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a2ca365d-3907-4c41-af83-58510af998cc")
+	)
+	(pad "3" smd rect
+		(at 1.000076 -1.999873 180)
+		(size 0.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f69348b8-09fc-4242-9902-f695ed14072c")
+	)
+	(pad "4" smd rect
+		(at 2.300051 2.000127 180)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d7b3c3cb-7a12-468f-a8cc-28510ffa9f73")
+	)
+	(pad "5" smd rect
+		(at -2.300152 2.000127 180)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23aa1da0-b78b-47c0-8660-094521dafb14")
+	)
+	(embedded_fonts no)
+	(model "../../packages3d/Connector_SH1.0.3dshapes/CONN-SMD_3P-P1.00_XYECONN_XY-SH1.0-3A61.step"
+		(offset
+			(xyz 0 -0.340995 -0.37)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

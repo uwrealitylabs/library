@@ -1,35 +1,240 @@
-(module "C0402" (layer F.Cu) (tedit 699D819D)
-  (descr "C0402 footprint")
-  (tags "C0402 footprint C15195")
-  (attr smd)
-  (fp_text reference REF** (at 0 -2.499619) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value C0402 (at 0 2.499644) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_arc (start 0.721387 -0.347244) (end 0.721387 -0.499644) (angle 90) (layer F.SilkS) (width 0.1524))
-  (fp_arc (start 0.721387 0.345161) (end 0.873787 0.345161) (angle 90) (layer F.SilkS) (width 0.1524))
-  (fp_arc (start -0.721387 0.347244) (end -0.721387 0.499644) (angle 90) (layer F.SilkS) (width 0.1524))
-  (fp_arc (start -0.721387 -0.345161) (end -0.873787 -0.345161) (angle 90) (layer F.SilkS) (width 0.1524))
-  (fp_circle (center -0.499873 0.249936) (end -0.469901 0.249936) (layer F.SilkS) (width 0.059995))
-  (fp_line (start -0.721387 -0.497536) (end -0.221387 -0.497536) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.873813 0.347244) (end -0.873813 -0.345161) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.221387 0.499644) (end -0.721387 0.499644) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.721387 0.497511) (end 0.221387 0.497511) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.221387 -0.499619) (end 0.721387 -0.499619) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.873813 -0.347269) (end 0.873813 0.345161) (layer F.SilkS) (width 0.1524))
-  (pad 2 smd rect (at 0.420117 0) (size 0.5 0.540005) (layers F.Cu F.Mask F.Paste))
-  (pad 1 smd rect (at -0.420117 0) (size 0.5 0.540005) (layers F.Cu F.Mask F.Paste))
-  (fp_poly (pts (xy -0.5 0.250013) (xy -0.5 -0.250013) (xy -0.250013 -0.250013) (xy -0.250013 0.250013)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy 0.5 0.250013) (xy 0.5 -0.250013) (xy 0.250013 -0.250013) (xy 0.250013 0.250013)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy -0.5 0.250013) (xy -0.5 -0.250013) (xy 0.5 -0.250013) (xy 0.5 0.250013)) (layer F.SilkS) (width 0.12))
-  (fp_text user ${REFERENCE} (at 0 0.000013) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model ../../packages3d/Basic_Capacitors_Resistors.3dshapes/C0402.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "C0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "C0402 footprint")
+	(tags "C0402 footprint C1567")
+	(property "Reference" "REF**"
+		(at 0 -2.499619 0)
+		(layer "F.SilkS")
+		(uuid "8d1bb874-5984-4f1c-98c4-bd213d92aa7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C0402"
+		(at 0 2.499644 0)
+		(layer "F.Fab")
+		(uuid "f4cc67c2-8055-4003-873b-ef7202a001ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09b8edf7-74e7-481b-8f9d-9d80b1419e03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "715d0336-1737-42cb-95ae-ad7ef3a965b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.873813 0.347244)
+		(end -0.873813 -0.345161)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7197fa1e-7eeb-4ac6-a07f-42e9d5862125")
+	)
+	(fp_line
+		(start -0.721387 -0.497536)
+		(end -0.221387 -0.497536)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07797bd7-095e-4d34-904a-725b9b36f438")
+	)
+	(fp_line
+		(start -0.221387 0.499644)
+		(end -0.721387 0.499644)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f773d6e-525e-4e2c-b530-1730676014ed")
+	)
+	(fp_line
+		(start 0.221387 -0.499619)
+		(end 0.721387 -0.499619)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5afae3b4-992a-4a47-ba92-21173d35488a")
+	)
+	(fp_line
+		(start 0.721387 0.497511)
+		(end 0.221387 0.497511)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63657bef-f6ee-4624-8306-22b4dcfe62cd")
+	)
+	(fp_line
+		(start 0.873813 -0.347269)
+		(end 0.873813 0.345161)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2a26200-e934-444c-9ca3-874f6e321b0a")
+	)
+	(fp_arc
+		(start -0.873787 -0.345161)
+		(mid -0.82915 -0.452924)
+		(end -0.721387 -0.497561)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bbb50cb-9c4a-4311-859f-8f20b0c2e8e0")
+	)
+	(fp_arc
+		(start -0.721387 0.499644)
+		(mid -0.82915 0.455007)
+		(end -0.873787 0.347244)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e768ee53-ffea-4aa0-917c-4fae3400c656")
+	)
+	(fp_arc
+		(start 0.721387 -0.499644)
+		(mid 0.82915 -0.455007)
+		(end 0.873787 -0.347244)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c5204d6-8115-4a35-a3d2-d7d0b1aa009c")
+	)
+	(fp_arc
+		(start 0.873787 0.345161)
+		(mid 0.82915 0.452924)
+		(end 0.721387 0.497561)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc1537e9-f22f-426f-aaa1-01b96dc5ee91")
+	)
+	(fp_circle
+		(center -0.499873 0.249936)
+		(end -0.469901 0.249936)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f0743b69-fa94-45b9-b78d-4e378ee13943")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 0.250013) (xy -0.5 -0.250013) (xy -0.250013 -0.250013) (xy -0.250013 0.250013)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "efcc20c3-1044-4d94-9183-1defa26b97e0")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 0.250013) (xy -0.5 -0.250013) (xy 0.5 -0.250013) (xy 0.5 0.250013)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "42d9ea7a-a264-43b4-a465-7a417ad6f533")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 0.250013) (xy 0.5 -0.250013) (xy 0.250013 -0.250013) (xy 0.250013 0.250013)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "04225744-02c0-4569-b282-e2422d004290")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.000013 0)
+		(layer "F.Fab")
+		(uuid "e9fd01ba-16c1-4810-a58c-159c729ec9e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.420117 0)
+		(size 0.5 0.540005)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "22f54139-36d2-4dd0-988c-e5fb5eadd66f")
+	)
+	(pad "2" smd rect
+		(at 0.420117 0)
+		(size 0.5 0.540005)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb582e71-394a-4ec1-9087-2884cdbe0df6")
+	)
+	(embedded_fonts no)
+	(model "../../packages3d/Basic_Capacitors_Resistors.3dshapes/C0402.step"
+		(offset
+			(xyz 0 0 0.23)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
