@@ -15,7 +15,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
-			(at 0 1.27 0)
+			(at 0 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28,6 +28,7 @@
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,7 +48,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/97352.html"
-			(at -2.286 0.127 0)
+			(at -2.286 -3.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -70,7 +71,7 @@
 			)
 		)
 		(property "LCSC" "C96151"
-			(at 0 0 0)
+			(at 0.254 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -93,9 +94,9 @@
 		)
 		(symbol "PRS3015-470MT_0_1"
 			(arc
-				(start -2.2657 0.0152)
-				(mid -3.2778 -0.9214)
-				(end -4.2875 0.0178)
+				(start -4.2875 -0.0178)
+				(mid -3.2778 0.9214)
+				(end -2.2657 -0.0152)
 				(stroke
 					(width 0)
 					(type default)
@@ -105,9 +106,9 @@
 				)
 			)
 			(arc
-				(start -0.1118 0.0178)
-				(mid -1.1227 -0.9202)
-				(end -2.1336 0.0178)
+				(start -2.1336 -0.0178)
+				(mid -1.1227 0.9202)
+				(end -0.1118 -0.0178)
 				(stroke
 					(width 0)
 					(type default)
@@ -117,9 +118,9 @@
 				)
 			)
 			(arc
-				(start 2.0396 0.0178)
-				(mid 1.0287 -0.9202)
-				(end 0.0178 0.0178)
+				(start 0.0178 -0.0178)
+				(mid 1.0287 0.9202)
+				(end 2.0396 -0.0178)
 				(stroke
 					(width 0)
 					(type default)
@@ -129,9 +130,9 @@
 				)
 			)
 			(arc
-				(start 4.2342 0.0152)
-				(mid 3.2207 -0.9355)
-				(end 2.2098 0.0178)
+				(start 2.2098 -0.0178)
+				(mid 3.2208 0.9355)
+				(end 4.2342 -0.0152)
 				(stroke
 					(width 0)
 					(type default)
@@ -173,6 +174,17 @@
 						(font
 							(size 1 1)
 						)
+					)
+				)
+			)
+		)
+		(symbol "PRS3015-470MT_1_1"
+			(text "47uH"
+				(at 0 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
 					)
 				)
 			)
