@@ -1,36 +1,251 @@
-(module "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR" (layer F.Cu) (tedit 69F1A90F)
-  (descr "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint")
-  (tags "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint C74081")
-  (attr smd)
-  (fp_text reference REF** (at 0 -3.536195) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR (at 0 3.536195) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 1.399924 1.459995) (end 1.429896 1.459995) (layer F.SilkS) (width 0.059995))
-  (fp_circle (center 1.65113 0.949962) (end 1.751207 0.949962) (layer F.Fab) (width 0.2))
-  (fp_line (start 0.876073 -1.536195) (end -0.876327 -1.536195) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.876327 -1.536195) (end -0.876327 -0.49459) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.876073 1.536195) (end -0.876327 1.536195) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.876327 1.536195) (end -0.876327 0.49459) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.876073 -0.455398) (end 0.876073 0.455398) (layer F.SilkS) (width 0.1524))
-  (pad 1 smd rect (at 1.235077 0.949962) (size 1.070003 0.6) (layers F.Cu F.Mask F.Paste))
-  (pad 2 smd rect (at 1.235077 -0.949962) (size 1.070003 0.6) (layers F.Cu F.Mask F.Paste))
-  (pad 3 smd rect (at -1.235077 0) (size 1.070003 0.6) (layers F.Cu F.Mask F.Paste))
-  (fp_poly (pts (xy -0.800127 1.459995) (xy -0.800127 -1.459995) (xy 0.799873 -1.459995) (xy 0.799873 1.459995)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy 0.949886 1.150013) (xy 0.949886 0.750013) (xy 1.399873 0.750013) (xy 1.399873 1.150013)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy 0.789865 1.150013) (xy 0.789865 0.750013) (xy 0.959868 0.750013) (xy 0.959868 1.150013)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy 0.949886 -0.750013) (xy 0.949886 -1.150013) (xy 1.399873 -1.150013) (xy 1.399873 -0.750013)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy 0.789865 -0.750013) (xy 0.789865 -1.150013) (xy 0.959868 -1.150013) (xy 0.959868 -0.750013)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy -0.95014 0.2) (xy -0.95014 -0.2) (xy -1.400127 -0.2) (xy -1.400127 0.2)) (layer F.SilkS) (width 0.12))
-  (fp_poly (pts (xy -0.960122 0.2) (xy -0.960122 -0.2) (xy -0.790119 -0.2) (xy -0.790119 0.2)) (layer F.SilkS) (width 0.12))
-  (fp_text user ${REFERENCE} (at 0 0) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model ../../packages3d/Transistor_BJT_UWRL.3dshapes/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
+(footprint "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint")
+	(tags "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint C74081")
+	(property "Reference" "REF**"
+		(at 0 -3.536195 0)
+		(layer "F.SilkS")
+		(uuid "3780ed94-7e35-4df2-a95a-8efabae654ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(at 0 3.536195 0)
+		(layer "F.Fab")
+		(uuid "a5327680-d130-4ad8-8dfa-9883aa7a2036")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01496e93-1849-41f4-9578-503404898551")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c22a6cc4-0acf-47ae-b313-c1e372fb1e9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.876327 -1.536195)
+		(end -0.876327 -0.49459)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9c3c965-fa1f-48ce-a0b3-8e75e363b5db")
+	)
+	(fp_line
+		(start -0.876327 1.536195)
+		(end -0.876327 0.49459)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae9f8368-f553-402e-abb7-0a8db0caa928")
+	)
+	(fp_line
+		(start 0.876073 -1.536195)
+		(end -0.876327 -1.536195)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "270bc695-67dc-4af1-b7fb-9b36f825b49e")
+	)
+	(fp_line
+		(start 0.876073 -0.455398)
+		(end 0.876073 0.455398)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8197b5b-4398-4786-9184-8db983532c98")
+	)
+	(fp_line
+		(start 0.876073 1.536195)
+		(end -0.876327 1.536195)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a29b35c-14f2-46e2-8c74-d4c3d2ab4348")
+	)
+	(fp_circle
+		(center 1.399924 1.459995)
+		(end 1.429896 1.459995)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aae615e5-b6fd-426b-884e-1460c3ca1021")
+	)
+	(fp_poly
+		(pts
+			(xy -0.960122 0.2) (xy -0.960122 -0.2) (xy -0.790119 -0.2) (xy -0.790119 0.2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ce9bcfc9-a0ed-4818-bb8a-d2f6d7a4635f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.95014 0.2) (xy -0.95014 -0.2) (xy -1.400127 -0.2) (xy -1.400127 0.2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0dd2fc50-5004-4597-9081-645e0b18348e")
+	)
+	(fp_poly
+		(pts
+			(xy -0.800127 1.459995) (xy -0.800127 -1.459995) (xy 0.799873 -1.459995) (xy 0.799873 1.459995)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "13e10b1a-f7ef-42a2-8065-7004fd5e5ea9")
+	)
+	(fp_poly
+		(pts
+			(xy 0.789865 -0.750013) (xy 0.789865 -1.150013) (xy 0.959868 -1.150013) (xy 0.959868 -0.750013)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "387102ee-cd09-4791-a0dd-953e7e944920")
+	)
+	(fp_poly
+		(pts
+			(xy 0.789865 1.150013) (xy 0.789865 0.750013) (xy 0.959868 0.750013) (xy 0.959868 1.150013)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b1527942-871f-443e-85f4-d6aeec99cc61")
+	)
+	(fp_poly
+		(pts
+			(xy 0.949886 -0.750013) (xy 0.949886 -1.150013) (xy 1.399873 -1.150013) (xy 1.399873 -0.750013)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0a2b65c9-9975-4249-b682-c5c802908168")
+	)
+	(fp_poly
+		(pts
+			(xy 0.949886 1.150013) (xy 0.949886 0.750013) (xy 1.399873 0.750013) (xy 1.399873 1.150013)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "470540a3-c035-4200-aec2-faf43aeed296")
+	)
+	(fp_circle
+		(center 1.65113 0.949962)
+		(end 1.751207 0.949962)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dbaab860-d375-4e92-b861-85fc9eb5fe08")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "32385157-c2a9-4a44-b776-305849e37fa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.235077 0.949962)
+		(size 1.070003 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9f1d71d2-c00c-4296-9d3e-88839bade81b")
+	)
+	(pad "2" smd rect
+		(at 1.235077 -0.949962)
+		(size 1.070003 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "462140bc-f508-4606-9017-a7a8175d959c")
+	)
+	(pad "3" smd rect
+		(at -1.235077 0)
+		(size 1.070003 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8b27152-3787-44e0-9944-118cefa34fbd")
+	)
+	(embedded_fonts no)
+	(model "../../packages3d/Transistor_BJT_UWRL.3dshapes/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )
