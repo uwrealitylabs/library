@@ -35,7 +35,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Basic_Capacitors_Resistors:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)

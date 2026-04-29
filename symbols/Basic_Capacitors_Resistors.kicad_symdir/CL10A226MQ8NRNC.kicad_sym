@@ -28,13 +28,14 @@
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Basic_Capacitors_Resistors:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
