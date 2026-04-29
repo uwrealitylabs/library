@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "CL10B473KB8NNNC"
+	(symbol "CL10A105KB8NNNC"
 		(pin_numbers
 			(hide yes)
 		)
@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Value" "CL10B473KB8NNNC"
+		(property "Value" "CL10A105KB8NNNC"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48,7 +48,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/362304.html"
-			(at -5.08 -9.525 0)
+			(at -3.556 -5.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -59,8 +59,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "47nF ±10% 50V Ceramic Capacitor X7R 0603"
-			(at -2.794 -9.652 0)
+		(property "Description" "1uF ±10% 50V Ceramic Capacitor X5R 0603"
+			(at 1.524 -6.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -70,7 +70,29 @@
 				)
 			)
 		)
-		(property "LCSC" "C1622"
+		(property "LCSC" "C15849"
+			(at -0.508 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Symbol Name" "CL10A105KB8NNNC"
+			(at 0.254 -7.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C15849"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -81,32 +103,10 @@
 				)
 			)
 		)
-		(property "Symbol Name" "CL10B473KB8NNNC"
-			(at -1.778 -5.334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "C1622"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "CL10B473KB8NNNC_0_1"
+		(symbol "CL10A105KB8NNNC_0_1"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -0.508 0)
+					(xy -0.508 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -118,7 +118,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 2.032) (xy -0.508 -2.032)
+					(xy -0.508 -2.032) (xy -0.508 2.032)
 				)
 				(stroke
 					(width 0)
@@ -142,7 +142,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.508 0) (xy 1.27 0)
+					(xy 2.54 0) (xy 0.508 0)
 				)
 				(stroke
 					(width 0)
@@ -153,7 +153,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -171,7 +171,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -189,8 +189,8 @@
 				)
 			)
 		)
-		(symbol "CL10B473KB8NNNC_1_1"
-			(text "47nF "
+		(symbol "CL10A105KB8NNNC_1_1"
+			(text "1uF"
 				(at 0 3.048 0)
 				(effects
 					(font

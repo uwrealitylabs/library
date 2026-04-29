@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "CL10B473KB8NNNC"
+	(symbol "1N4148WS_T4"
 		(pin_numbers
 			(hide yes)
 		)
@@ -14,8 +14,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "C"
-			(at 0 4.826 0)
+		(property "Reference" "D"
+			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24,18 +24,17 @@
 				)
 			)
 		)
-		(property "Value" "CL10B473KB8NNNC"
+		(property "Value" "1N4148WS_T4"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47,8 +46,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/362304.html"
-			(at -5.08 -9.525 0)
+		(property "Datasheet" "https://item.szlcsc.com/295156.html"
+			(at -6.35 -8.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -59,18 +58,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "47nF ±10% 50V Ceramic Capacitor X7R 0603"
-			(at -2.794 -9.652 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1622"
+		(property "Description" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -81,18 +69,7 @@
 				)
 			)
 		)
-		(property "Symbol Name" "CL10B473KB8NNNC"
-			(at -1.778 -5.334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "C1622"
+		(property "LCSC" "C2128"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -103,10 +80,21 @@
 				)
 			)
 		)
-		(symbol "CL10B473KB8NNNC_0_1"
+		(property "ki_keywords" "C2128"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "1N4148WS_T4_0_1"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -0.508 0)
+					(xy -1.27 -1.524) (xy -1.27 1.524)
 				)
 				(stroke
 					(width 0)
@@ -118,44 +106,20 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 2.032) (xy -0.508 -2.032)
+					(xy 1.27 1.524) (xy -1.27 0) (xy 1.27 -1.524) (xy 1.27 1.524)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.508 2.032) (xy 0.508 -2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.508 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
-				(name "1"
+				(name "K"
 					(effects
 						(font
 							(size 1 1)
@@ -173,7 +137,7 @@
 			(pin passive line
 				(at 3.81 0 180)
 				(length 2.54)
-				(name "2"
+				(name "A"
 					(effects
 						(font
 							(size 1 1)
@@ -185,17 +149,6 @@
 						(font
 							(size 1 1)
 						)
-					)
-				)
-			)
-		)
-		(symbol "CL10B473KB8NNNC_1_1"
-			(text "47nF "
-				(at 0 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(color 163 59 255 1)
 					)
 				)
 			)

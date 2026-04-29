@@ -33,7 +33,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lemon-pepper-footprints:SOT-23-6"
+		(property "Footprint" "Diode:SOT-23-6"
 			(at 17.78 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
