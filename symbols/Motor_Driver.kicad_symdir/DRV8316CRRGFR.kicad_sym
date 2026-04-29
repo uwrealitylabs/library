@@ -145,7 +145,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 13.97 0)
+				(at -17.78 -1.27 0)
 				(length 2.54)
 				(name "FB_BK"
 					(effects
@@ -163,7 +163,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 11.43 0)
+				(at -17.78 -13.97 0)
 				(length 2.54)
 				(name "GND_BK"
 					(effects
@@ -181,7 +181,7 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 8.89 0)
+				(at -17.78 -11.43 0)
 				(length 2.54)
 				(name "SW_BK"
 					(effects
@@ -199,7 +199,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 6.35 0)
+				(at 10.16 29.21 270)
 				(length 2.54)
 				(name "CPL"
 					(effects
@@ -217,7 +217,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 3.81 0)
+				(at 0 29.21 270)
 				(length 2.54)
 				(name "CPH"
 					(effects
@@ -235,7 +235,7 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 1.27 0)
+				(at -2.54 29.21 270)
 				(length 2.54)
 				(name "CP"
 					(effects
@@ -325,7 +325,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -1.27 0)
+				(at -17.78 13.97 0)
 				(length 2.54)
 				(name "OUTA"
 					(effects
@@ -343,7 +343,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -3.81 0)
+				(at -17.78 11.43 0)
 				(length 2.54)
 				(name "OUTA"
 					(effects
@@ -379,7 +379,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -6.35 0)
+				(at -17.78 8.89 0)
 				(length 2.54)
 				(name "OUTB"
 					(effects
@@ -397,7 +397,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -8.89 0)
+				(at -17.78 6.35 0)
 				(length 2.54)
 				(name "OUTB"
 					(effects
@@ -433,7 +433,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -11.43 0)
+				(at -17.78 3.81 0)
 				(length 2.54)
 				(name "OUTC"
 					(effects
@@ -451,7 +451,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -13.97 0)
+				(at -17.78 1.27 0)
 				(length 2.54)
 				(name "OUTC"
 					(effects
@@ -469,7 +469,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -19.05 180)
+				(at 17.78 -11.43 180)
 				(length 2.54)
 				(name "DRVOFF"
 					(effects
@@ -487,7 +487,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -16.51 180)
+				(at 17.78 -13.97 180)
 				(length 2.54)
 				(name "nFAULT"
 					(effects
@@ -505,7 +505,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -13.97 180)
+				(at 17.78 -16.51 180)
 				(length 2.54)
 				(name "nSLEEP"
 					(effects
@@ -523,7 +523,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 17.78 -8.89 180)
+				(at 17.78 -21.59 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -541,7 +541,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -21.59 180)
+				(at 17.78 -19.05 180)
 				(length 2.54)
 				(name "AVDD"
 					(effects
@@ -757,7 +757,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -11.43 180)
+				(at 17.78 -8.89 180)
 				(length 2.54)
 				(name "VREF/ILIM"
 					(effects
