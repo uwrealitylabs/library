@@ -1,0 +1,78 @@
+(kicad_symbol_lib (version 20210201) (generator TousstNicolas/JLC2KiCad_lib)
+  (symbol "CA-C03" (pin_names hide) (pin_numbers hide) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 1.27 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "CA-C03" (id 1) (at 0 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Antenna__C:ANT-SMD_CA-C03" (id 2) (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "https://cn.bing.com/search?q=datasheet： CA-C03" (id 3) (at -2.286 0.127 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "ki_keywords" "C2838842" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2838842" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    
+    (property "Description" "CA-C03" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CA-C03_0_1"
+      (polyline
+        (pts
+          (xy 0.0 -0.0)
+          (xy -2.54000508001016 2.54000508001016)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54000508001016 2.54000508001016)
+          (xy 0.0 -0.0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.0 -0.0)
+          (xy 0.0 -2.54000508001016)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 0.0 -5.08 90)
+        (length 2.54000508001016)
+        (name "ANT" (effects (font (size 1 1))))
+        (number "2" (effects (font (size 1 1))))
+      )
+      (polyline
+        (pts
+          (xy 0.0 -0.0)
+          (xy 0.0 3.81000762001524)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 0.0 5.08 270)
+        (length 2.54000508001016)
+        (name "1" (effects (font (size 1 1))))
+        (number "1" (effects (font (size 1 1))))
+      )
+    )
+    (symbol "CA-C03_1_1"
+      (text "2.4GHz chip ant" (at 0 6.604 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
+  )
+)
