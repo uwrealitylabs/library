@@ -19,6 +19,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     
+    (property "Description" "MCU using RISC-V3A core, supports IMAC subset of RISC-V ISA" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "CH569W_0_1"
       (rectangle
         (start -13.97002794005588 44.4500889001778)
@@ -447,5 +450,11 @@
         (number "69" (effects (font (size 1 1))))
       )
     )
+    (symbol "CH569W_1_1"
+      (text "CH569W" (at 0 48.514 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
   )
 )

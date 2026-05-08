@@ -507,5 +507,11 @@
         )
       )
     )
+    (symbol "RP2040_1_1"
+      (text "RP2040" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
   )
 )

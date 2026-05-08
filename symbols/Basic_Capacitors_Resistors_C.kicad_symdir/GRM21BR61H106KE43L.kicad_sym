@@ -190,7 +190,7 @@
 			)
 		)
 		(symbol "GRM21BR61H106KE43L_1_1"
-			(text "10uF"
+			(text "10uF/50V/X5R"
 				(at 0 3.048 0)
 				(effects
 					(font

@@ -19,6 +19,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     
+    (property "Description" "3V 128Mbit serial flash with dual/quad SPI interface (tape & reel)" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "W25Q128JVSIQTR_0_1"
       (circle
         (center -8.89001778003556 5.588011176022352)
@@ -87,5 +90,11 @@
         (number "8" (effects (font (size 1 1))))
       )
     )
+    (symbol "W25Q128JVSIQTR_1_1"
+      (text "W25Q128 SPI flash" (at 0 8.382 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
   )
 )

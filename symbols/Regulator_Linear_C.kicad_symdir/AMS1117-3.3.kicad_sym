@@ -291,6 +291,17 @@
 				)
 			)
 		)
+		(symbol "AMS1117-3.3_1_1"
+			(text "AMS1117 3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 )

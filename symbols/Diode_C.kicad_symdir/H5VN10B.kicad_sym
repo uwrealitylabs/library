@@ -58,7 +58,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional ESD, 5V clamping, peak surge 8A @8/20us, marking PB"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -185,6 +185,17 @@
 						(font
 							(size 1 1)
 						)
+					)
+				)
+			)
+		)
+		(symbol "H5VN10B_1_1"
+			(text "5V ESD/TVS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
 					)
 				)
 			)

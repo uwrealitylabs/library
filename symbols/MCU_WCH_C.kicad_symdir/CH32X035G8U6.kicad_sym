@@ -42,15 +42,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C7437027"
 			(at 0 0 0)
 			(effects
@@ -67,6 +58,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description" "Industrial-grade MCU based on QingKe RISC-V core"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "CH32X035G8U6_0_1"
@@ -615,5 +617,17 @@
 				)
 			)
 		)
+		(symbol "CH32X035G8U6_1_1"
+			(text "CH32X035"
+				(at 0 21.844 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

@@ -52,17 +52,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C5447274"
 			(at -13.208 -28.956 0)
 			(show_name no)
@@ -75,6 +64,17 @@
 			)
 		)
 		(property "ki_keywords" "C5447274"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Three-phase integrated FET motor driver"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -848,5 +848,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "DRV8316CRRGFR_1_1"
+			(text "DRV8316 3ph BLDC"
+				(at 0 30.734 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

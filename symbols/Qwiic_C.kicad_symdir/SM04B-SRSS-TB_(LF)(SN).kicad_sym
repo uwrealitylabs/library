@@ -19,6 +19,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     
+    (property "Description" "1x4P 1mm pitch horizontal SMT, JST-SH series" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "SM04B-SRSS-TB_(LF)(SN)_0_1"
       (rectangle
         (start -11.430022860045721 1.27000254000508)
@@ -63,5 +66,11 @@
         (number "6" (effects (font (size 1 1))))
       )
     )
+    (symbol "SM04B-SRSS-TB_(LF)(SN)_1_1"
+      (text "SH 4P horiz (Qwiic)" (at 0 5.334 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
   )
 )

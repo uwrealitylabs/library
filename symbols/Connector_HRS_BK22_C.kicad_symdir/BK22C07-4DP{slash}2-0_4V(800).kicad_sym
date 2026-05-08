@@ -52,17 +52,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C27141223"
 			(at -1.778 -23.368 0)
 			(show_name no)
@@ -75,6 +64,17 @@
 			)
 		)
 		(property "ki_keywords" "C27141223"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HRS BK22 4-pin 0.4mm pitch vertical FPC connector"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -315,5 +315,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "BK22C07-4DP{slash}2-0_4V(800)_1_1"
+			(text "BK22 4P FPC 0.4mm"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

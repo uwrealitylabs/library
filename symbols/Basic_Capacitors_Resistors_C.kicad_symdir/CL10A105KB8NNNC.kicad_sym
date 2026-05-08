@@ -190,7 +190,7 @@
 			)
 		)
 		(symbol "CL10A105KB8NNNC_1_1"
-			(text "1uF"
+			(text "1uF/50V/X5R"
 				(at 0 3.048 0)
 				(effects
 					(font

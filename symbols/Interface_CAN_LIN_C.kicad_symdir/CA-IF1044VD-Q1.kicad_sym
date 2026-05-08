@@ -52,17 +52,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C5155979"
 			(at 0 0 0)
 			(show_name no)
@@ -75,6 +64,17 @@
 			)
 		)
 		(property "ki_keywords" "C5155979"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CA-IF1044-Q1 automotive-grade CAN transceiver with standby mode"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -272,5 +272,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "CA-IF1044VD-Q1_1_1"
+			(text "CA-IF1044 CAN xcvr"
+				(at 0 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

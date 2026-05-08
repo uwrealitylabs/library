@@ -58,17 +58,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C3039743"
 			(at 0 0 0)
 			(show_name no)
@@ -81,6 +70,17 @@
 			)
 		)
 		(property "ki_keywords" "C3039743"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2 5.1kΩ@10MHz"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -286,5 +286,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "ACT1210D-101-2P-TL00_1_1"
+			(text "CMC choke"
+				(at 0 4.069 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

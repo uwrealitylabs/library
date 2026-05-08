@@ -179,7 +179,7 @@
 			)
 		)
 		(symbol "0402CG300J500NT_1_1"
-			(text "30pF"
+			(text "30pF/50V/C0G"
 				(at 0 3.556 0)
 				(effects
 					(font

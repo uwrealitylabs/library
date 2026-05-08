@@ -53,17 +53,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C19272012"
 			(at 0 0 0)
 			(show_name no)
@@ -76,6 +65,17 @@
 			)
 		)
 		(property "ki_keywords" "C19272012"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1x9P 1mm pitch vertical SMT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

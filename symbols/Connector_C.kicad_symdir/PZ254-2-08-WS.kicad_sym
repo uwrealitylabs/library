@@ -19,6 +19,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     
+    (property "Description" "Black 2x8P 2.54mm pitch square pin horizontal SMT" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "PZ254-2-08-WS_0_1"
       (rectangle
         (start -5.08001016002032 11.430022860045721)
@@ -129,5 +132,11 @@
         (number "2" (effects (font (size 1 1))))
       )
     )
+    (symbol "PZ254-2-08-WS_1_1"
+      (text "8P 2.54 hdr" (at 0 12.954 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
   )
 )

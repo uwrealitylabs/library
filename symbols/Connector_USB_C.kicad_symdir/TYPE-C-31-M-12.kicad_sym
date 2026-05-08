@@ -52,17 +52,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C165948"
 			(at -3.556 -23.622 0)
 			(show_name no)
@@ -75,6 +64,17 @@
 			)
 		)
 		(property "ki_keywords" "C165948"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type-C female horizontal SMT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -387,5 +387,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "TYPE-C-31-M-12_1_1"
+			(text "USB-C"
+				(at 0 18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

@@ -58,7 +58,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional TVS, 24V clamping, peak surge 8A @8/20us"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -297,6 +297,17 @@
 						(font
 							(size 1 1)
 						)
+					)
+				)
+			)
+		)
+		(symbol "PESD2CAN_1_1"
+			(text "CAN ESD"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
 					)
 				)
 			)

@@ -21,6 +21,9 @@
     (property "ki_fp_filters" "CONN_484050003_MOL" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "Molex Pico-EZmate 1.20mm pitch 5-circuit SMT receptacle (P/N 484050003)" (id 99) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "484050003_1_1"
       (polyline
         (pts
@@ -305,6 +308,9 @@
       (pin unspecified line (at 0 -20.32 0) (length 5.08)
         (name "5" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (text "Molex Pico-EZmate 5P" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
       )
     )
     (symbol "484050003_1_2"

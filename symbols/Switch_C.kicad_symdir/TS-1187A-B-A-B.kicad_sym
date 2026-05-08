@@ -52,17 +52,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C318884"
 			(at 0 0 0)
 			(show_name no)
@@ -75,6 +64,17 @@
 			)
 		)
 		(property "ki_keywords" "C318884"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5.1x5.1x1.5mm vertical SMT tact switch"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -242,5 +242,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "TS-1187A-B-A-B_1_1"
+			(text "Tact 5.1x5.1mm"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

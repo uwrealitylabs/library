@@ -58,17 +58,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C2290"
 			(at 0 0 0)
 			(show_name no)
@@ -81,6 +70,17 @@
 			)
 		)
 		(property "ki_keywords" "C2290"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0603 white LED, high brightness"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -202,5 +202,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "0603White_light_C2290_1_1"
+			(text "White LED 0603"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

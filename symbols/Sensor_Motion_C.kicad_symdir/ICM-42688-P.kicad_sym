@@ -388,5 +388,17 @@
 				)
 			)
 		)
+		(symbol "ICM-42688-P_1_1"
+			(text "ICM-42688-P IMU"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

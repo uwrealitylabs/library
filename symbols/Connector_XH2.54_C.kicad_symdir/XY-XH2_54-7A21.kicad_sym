@@ -53,17 +53,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C19271382"
 			(at 0 0 0)
 			(show_name no)
@@ -87,6 +76,17 @@
 			)
 		)
 		(property "ki_keywords" "C19271382"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "7-pin 2.54mm pitch JST-XH compatible right-angle THT header"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

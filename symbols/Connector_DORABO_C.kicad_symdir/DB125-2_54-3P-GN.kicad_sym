@@ -6,7 +6,7 @@
     (property "Value" "DB125-2_54-3P-GN" (id 1) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints/Connector_DORABO:CONN-TH_DB125-2.54-3P-GN" (id 2) (at 0 -10.16 0)
+    (property "Footprint" "Connector_DORABO_C:CONN-TH_DB125-2.54-3P-GN" (id 2) (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/993707.html" (id 3) (at -2.286 0.127 0)
@@ -19,6 +19,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     
+    (property "Description" "3-position 2.54mm pitch THT vertical screw terminal" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "DB125-2_54-3P-GN_0_1"
       (rectangle
         (start -2.54000508001016 5.08001016002032)
@@ -51,5 +54,11 @@
         (number "3" (effects (font (size 1 1))))
       )
     )
+    (symbol "DB125-2_54-3P-GN_1_1"
+      (text "3P 2.54mm screw term" (at 0 6.604 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
   )
 )

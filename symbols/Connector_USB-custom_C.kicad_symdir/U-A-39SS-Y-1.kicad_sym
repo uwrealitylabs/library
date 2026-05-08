@@ -19,6 +19,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     
+    (property "Description" "Type-A female horizontal SMT" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "U-A-39SS-Y-1_0_1"
       (rectangle
         (start -15.24003048006096 8.89001778003556)
@@ -99,5 +102,11 @@
         (number "11" (effects (font (size 1 1))))
       )
     )
+    (symbol "U-A-39SS-Y-1_1_1"
+      (text "USB-A" (at 0 12.954 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
   )
 )

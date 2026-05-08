@@ -190,7 +190,7 @@
 			)
 		)
 		(symbol "CL05C100JB5NNNC_1_1"
-			(text "10pF"
+			(text "10pF/50V/C0G"
 				(at 0 3.302 0)
 				(effects
 					(font

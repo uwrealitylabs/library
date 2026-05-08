@@ -534,6 +534,15 @@
 					(type none)
 				)
 			)
+			(text "USB ESD array"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
 		)
 		(symbol "SRV05-4_1_1"
 			(pin passive line

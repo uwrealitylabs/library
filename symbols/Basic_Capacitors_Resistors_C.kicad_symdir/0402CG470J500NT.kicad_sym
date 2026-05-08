@@ -190,7 +190,7 @@
 			)
 		)
 		(symbol "0402CG470J500NT_1_1"
-			(text "47pF"
+			(text "47pF/50V/C0G"
 				(at 0 3.556 0)
 				(effects
 					(font

@@ -58,17 +58,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C74081"
 			(at 0 0 0)
 			(show_name no)
@@ -81,6 +70,17 @@
 			)
 		)
 		(property "ki_keywords" "C74081"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FMMT620TA"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -196,5 +196,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "FMMT620TA_1_1"
+			(text "FMMT620 NPN"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

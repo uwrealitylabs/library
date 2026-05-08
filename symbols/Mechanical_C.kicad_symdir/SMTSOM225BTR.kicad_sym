@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints/Mechanical:SMD_BD5.6-D3.6"
+		(property "Footprint" "Mechanical_C:SMD_BD5.6-D3.6"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52,17 +52,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C5301773"
 			(at -0.762 9.906 0)
 			(show_name no)
@@ -75,6 +64,17 @@
 			)
 		)
 		(property "ki_keywords" "C5301773"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "YIYUAN PCB SMT round-nut standoff M2 5.56mm OD x L2.5+1.53mm, tin-plated copper, SMTSOM225BTR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -117,5 +117,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "SMTSOM225BTR_1_1"
+			(text "M2 SMT standoff"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

@@ -52,7 +52,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3V 200mA 6V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -148,6 +148,17 @@
 						(font
 							(size 1 1)
 						)
+					)
+				)
+			)
+		)
+		(symbol "XC6206P332MR_1_1"
+			(text "XC6206 3.3V LDO"
+				(at 0 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
 					)
 				)
 			)

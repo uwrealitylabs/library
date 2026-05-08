@@ -19,6 +19,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     
+    (property "Description" "Type-C female horizontal SMT" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "TYPE-C-31-M-05_0_1"
       (rectangle
         (start -11.430022860045721 16.51003302006604)
@@ -195,5 +198,11 @@
         (number "A12" (effects (font (size 1 1))))
       )
     )
+    (symbol "TYPE-C-31-M-05_1_1"
+      (text "USB-C" (at 0 23.114 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
   )
 )

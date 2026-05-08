@@ -190,7 +190,7 @@
 			)
 		)
 		(symbol "CL05A105KA5NQNC_1_1"
-			(text "1uF\n"
+			(text "1uF/25V/X5R"
 				(at 0 3.048 0)
 				(effects
 					(font

@@ -125,5 +125,11 @@
         )
       )
     )
+    (symbol "TC2050-IDC_1_1"
+      (text "TC2050 SWD IDC" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27) (color 163 59 255 1)))
+      )
+    )
+
   )
 )

@@ -190,7 +190,7 @@
 			)
 		)
 		(symbol "CL10A226MQ8NRNC_1_1"
-			(text "22uF"
+			(text "22uF/6.3V/X5R"
 				(at 0 3.048 0)
 				(effects
 					(font

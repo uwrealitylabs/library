@@ -56,17 +56,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C125045"
 			(at 2.54 -20.828 0)
 			(show_name no)
@@ -79,6 +68,17 @@
 			)
 		)
 		(property "ki_keywords" "C125045"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3x2.7x1.4mm vertical SMT tact switch"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -354,5 +354,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(symbol "SKSGPAE010_1_1"
+			(text "Tact 3x2.7mm"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
+					)
+				)
+			)
+		)
+
 	)
 )

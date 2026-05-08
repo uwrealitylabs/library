@@ -58,7 +58,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BZT52B5V1S"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -173,6 +173,17 @@
 						(font
 							(size 1 1)
 						)
+					)
+				)
+			)
+		)
+		(symbol "BZT52B5V1S_C19077434_1_1"
+			(text "5V1 Zener"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
 					)
 				)
 			)

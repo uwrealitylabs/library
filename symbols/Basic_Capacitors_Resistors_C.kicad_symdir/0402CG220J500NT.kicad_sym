@@ -190,7 +190,7 @@
 			)
 		)
 		(symbol "0402CG220J500NT_1_1"
-			(text "22pF"
+			(text "22pF/50V/C0G"
 				(at 0 3.556 0)
 				(effects
 					(font

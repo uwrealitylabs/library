@@ -59,17 +59,6 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C542207"
 			(at 0 0 0)
 			(show_name no)
@@ -82,6 +71,17 @@
 			)
 		)
 		(property "ki_keywords" "C542207"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "330uF ±20% 50V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

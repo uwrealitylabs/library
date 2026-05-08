@@ -190,7 +190,7 @@
 			)
 		)
 		(symbol "CL05B104KB54PNC_1_1"
-			(text "100nF"
+			(text "100nF/50V/X7R"
 				(at 0 3.048 0)
 				(effects
 					(font

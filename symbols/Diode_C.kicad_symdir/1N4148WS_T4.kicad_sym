@@ -28,6 +28,7 @@
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,7 +59,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1N4148WS"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -149,6 +150,17 @@
 						(font
 							(size 1 1)
 						)
+					)
+				)
+			)
+		)
+		(symbol "1N4148WS_T4_1_1"
+			(text "1N4148WS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 163 59 255 1)
 					)
 				)
 			)
