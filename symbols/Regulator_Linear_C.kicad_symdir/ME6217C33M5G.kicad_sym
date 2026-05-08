@@ -200,7 +200,7 @@
 			)
 		)
 		(symbol "ME6217C33M5G_1_1"
-			(text "ME6217 3.3V LDO"
+			(text "ME6217C33M5G 3.3V LDO"
 				(at 0 6.604 0)
 				(effects
 					(font

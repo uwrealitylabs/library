@@ -153,7 +153,7 @@
 			)
 		)
 		(symbol "XC6206P332MR_1_1"
-			(text "XC6206 3.3V LDO"
+			(text "XC6206P332MR 3.3V LDO"
 				(at 0 9.144 0)
 				(effects
 					(font
