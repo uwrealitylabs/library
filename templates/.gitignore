@@ -1,0 +1,10 @@
+# KiCad per-user / transient state — never commit in a template
+*.kicad_prl
+*-backups/
+*.lck
+~*.lck
+fp-info-cache
+
+# IDE/editor caches
+.history/
+.vscode/
