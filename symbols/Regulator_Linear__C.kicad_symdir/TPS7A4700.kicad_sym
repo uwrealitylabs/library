@@ -33,7 +33,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LDO__C:VQFN-20_L5.0-W5.0-P0.65-TL-EP"
+			(property "Footprint" "Regulator_Linear__C:VQFN-20_L5.0-W5.0-P0.65-TL-EP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
