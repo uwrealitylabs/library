@@ -211,8 +211,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "F.CrtYd")
 		(uuid "262796a9-7669-4233-a270-67cfc123f9a4")
 	)
 	(fp_poly
@@ -275,7 +275,7 @@
 		(uuid "664440a0-cf4f-4e1c-a5ba-233b58e1ab7c")
 	)
 	(embedded_fonts no)
-	(model "../../packages3d/Capacitor_SMD__C.3dshapes/CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-R-RD.step"
+	(model "${KIPRJMOD}/library/packages3d/Capacitor_SMD__C.3dshapes/CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-R-RD.step"
 		(offset
 			(xyz -5.15 0 0)
 		)

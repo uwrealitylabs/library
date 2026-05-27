@@ -175,8 +175,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "F.CrtYd")
 		(uuid "e46cad64-e5c6-4763-9e69-653153e23749")
 	)
 	(fp_text user "${REFERENCE}"

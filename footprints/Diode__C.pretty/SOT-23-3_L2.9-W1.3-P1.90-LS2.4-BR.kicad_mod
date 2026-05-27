@@ -144,8 +144,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "F.CrtYd")
 		(uuid "36aa3f62-2b98-458f-bb44-5d338f0823fc")
 	)
 	(fp_poly

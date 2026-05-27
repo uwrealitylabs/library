@@ -144,8 +144,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "F.CrtYd")
 		(uuid "13e10b1a-f7ef-42a2-8065-7004fd5e5ea9")
 	)
 	(fp_poly
@@ -237,7 +237,7 @@
 		(uuid "e8b27152-3787-44e0-9944-118cefa34fbd")
 	)
 	(embedded_fonts no)
-	(model "../../packages3d/Transistor_BJT__C.3dshapes/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step"
+	(model "${KIPRJMOD}/library/packages3d/Transistor_BJT__C.3dshapes/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -87,8 +87,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "F.CrtYd")
 		(uuid "898d6de6-7d55-4c67-8f50-14df54b5d1c8")
 	)
 	(fp_poly
@@ -426,7 +426,7 @@
 		(uuid "3f897461-e3d6-4898-a824-0b80cb961ec4")
 	)
 	(embedded_fonts no)
-	(model "../../packages3d/Mechanical__C.3dshapes/SMD_BD5.6-D3.6.step"
+	(model "${KIPRJMOD}/library/packages3d/Mechanical__C.3dshapes/SMD_BD5.6-D3.6.step"
 		(offset
 			(xyz 0 0 -0.029994)
 		)

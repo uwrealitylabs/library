@@ -132,8 +132,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "F.CrtYd")
 		(uuid "e2d29a1f-4833-4460-be50-108fdf9f7bad")
 	)
 	(fp_poly
@@ -286,9 +286,9 @@
 		(uuid "c3e40b0c-0120-4117-ac23-7d16ded6e5b4")
 	)
 	(embedded_fonts no)
-	(model "../../packages3d/Connector_SH1.0__C.3dshapes/CONN-SMD_5P-P1.00_XYECONN_XY-SH1.0-5A61.step"
+	(model "${KIPRJMOD}/library/packages3d/Connector_SH1.0__C.3dshapes/CONN-SMD_5P-P1.00_XYECONN_XY-SH1.0-5A61.step"
 		(offset
-			(xyz 0.000051 -0.333883 -0.36)
+			(xyz 5.1e-05 -0.333883 -0.36)
 		)
 		(scale
 			(xyz 1 1 1)

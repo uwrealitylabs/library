@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at -1.016002 -2.762002 0)
 		(layer "F.SilkS")
-		(uuid "161e1484-1298-4f06-92c2-798938bdf454")
+		(uuid "aad25bac-8d16-409b-b4e6-20d63ae92971")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "CAP-TH_BD10.0-P5.00-D1.0-FD"
 		(at -1.016002 2.762002 0)
 		(layer "F.Fab")
-		(uuid "e6c80cc7-3902-4117-937b-44ee51369aa6")
+		(uuid "c77af13f-d485-4170-bde0-5bb66bd493ef")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8e736095-afc8-4c0c-9414-119e91d8572d")
+		(uuid "731cd151-bc91-4c25-8664-2d45a3017aa5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "819e7330-b56e-4acf-8d81-acffe57dd2db")
+		(uuid "4bdf2a8e-4a49-4e3e-8a27-5fd575c4ea68")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "376cf4a0-5e18-4005-b750-477e1825be04")
+		(uuid "a44b9d3e-877b-43f5-8401-567ff83ed6e0")
 	)
 	(fp_line
 		(start -4.064008 -0.762002)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "07fb3390-9e5c-4149-b74d-9005e039e5fb")
+		(uuid "3722fa1d-8104-47ee-8a9b-fb99e55472b6")
 	)
 	(fp_circle
 		(center -5 5)
@@ -80,7 +80,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "9306f1d1-89bd-47ac-b726-c190d05b4f07")
+		(uuid "c3c3965c-2628-486c-b1a8-f94a63566559")
 	)
 	(fp_circle
 		(center 0 0)
@@ -91,7 +91,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "ea3c2957-82b9-4460-8f98-b3c2aac0f6a9")
+		(uuid "50613cf5-4ac8-484f-91e2-657c930cc1a0")
 	)
 	(fp_poly
 		(pts
@@ -104,8 +104,72 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "1ce25f72-f363-456e-ba0d-06b670081258")
+		(uuid "2d08fcb4-2906-4b88-bd0b-6fd7ca48274b")
 	)
+	(fp_poly
+		(pts
+			(xy -2.540005 1.016002) (xy -0.762002 1.016002) (xy -0.762002 1.270003) (xy -2.540005 1.270003)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "3d2d1580-73ca-40f7-89c7-4244b7caeab2")
+	)
+	(fp_poly
+		(pts
+			(xy -1.778004 0.762002) (xy -1.778004 2.032004) (xy -1.524003 2.032004) (xy -1.524003 0.254001) (xy -1.778004 0.254001)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "44b3993a-6708-40ee-99d8-f7f6a7beb1ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.016002 0 0)
+		(layer "F.Fab")
+		(uuid "5fbe52c8-54ae-49ab-8697-8cc4e683a78a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.540005 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06c7282b-091a-41b2-9c8e-b1c35fe62076")
+	)
+	(pad "2" thru_hole circle
+		(at 2.540005 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2443dbe-4c60-4caf-94aa-548a173faf92")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/packages3d/Capacitor_THT__C.3dshapes/CAP-TH_BD10.0-P5.00-D1.0-FD.step"
+		(offset
+			(xyz 0 0 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+
 	(fp_poly
 		(pts
 			(xy -5 0) (xy -4.903926 -0.975452) (xy -4.619398 -1.913417) (xy -4.157348 -2.777851) (xy -3.535534 -3.535534)
@@ -120,71 +184,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "f8522f72-8bd7-4921-92ad-e44260c5712c")
-	)
-	(fp_poly
-		(pts
-			(xy -2.540005 1.016002) (xy -0.762002 1.016002) (xy -0.762002 1.270003) (xy -2.540005 1.270003)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Fab")
-		(uuid "dc5a751b-fcfa-443d-a428-b04fa8c44a21")
-	)
-	(fp_poly
-		(pts
-			(xy -1.778004 0.762002) (xy -1.778004 2.032004) (xy -1.524003 2.032004) (xy -1.524003 0.254001) (xy -1.778004 0.254001)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Fab")
-		(uuid "3e3d0373-e569-47c5-9cc9-743151751a80")
-	)
-	(fp_text user "${REFERENCE}"
-		(at -1.016002 0 0)
-		(layer "F.Fab")
-		(uuid "01ee59f6-ba79-45e6-95ca-e37b05fbadc0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(pad "1" thru_hole circle
-		(at -2.540005 0)
-		(size 1.6 1.6)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "2657c498-08f7-4b2d-8f4e-e4ae7b345175")
-	)
-	(pad "2" thru_hole circle
-		(at 2.540005 0)
-		(size 1.6 1.6)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "40e352d9-1752-4c2d-944f-04cac6b97c5c")
-	)
-	(embedded_fonts no)
-	(model "../../packages3d/Capacitor_THT__C.3dshapes/CAP-TH_BD10.0-P5.00-D1.0-FD.step"
-		(offset
-			(xyz 0 0 12.500007)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bfb25cd1-02ed-4dda-bf8d-d00fe36150af")
 	)
 )

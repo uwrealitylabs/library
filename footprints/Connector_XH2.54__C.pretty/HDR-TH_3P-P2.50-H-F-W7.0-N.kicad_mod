@@ -140,8 +140,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "F.CrtYd")
 		(uuid "4fce5f28-9927-4763-90eb-c3b309ba45af")
 	)
 	(fp_poly
@@ -276,7 +276,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/library/packages3d/Connector_XH2.54__C.3dshapes/HDR-TH_3P-P2.50-H-F-W7.0-N.step"
 		(offset
-			(xyz 0 -3.564987 3)
+			(xyz 0 -3.56499 3)
 		)
 		(scale
 			(xyz 1 1 1)

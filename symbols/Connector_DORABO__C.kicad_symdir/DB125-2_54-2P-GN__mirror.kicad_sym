@@ -2,13 +2,13 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "DB125-2_54-3P-GN"
+	(symbol "DB125-2_54-2P-GN__mirror"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
+		(property "Reference" "J"
 			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "DB125-2_54-3P-GN"
+		(property "Value" "DB125-2_54-2P-GN__mirror"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_DORABO__C:CONN-TH_DB125-2.54-3P-GN"
+		(property "Footprint" "Connector_DORABO__C:CONN-TH_DB125-2.54-2P-GN__mirror"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40,7 +40,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/993707.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2301061530_DORABO-DB125-2-54-2P-GN-S_C918120.pdf"
 			(at -2.286 0.127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52,7 +52,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "3-position 2.54mm pitch THT vertical screw terminal"
+		(property "Description" "2-position 2.54mm pitch THT vertical screw terminal, body rotated 180 deg"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63,7 +63,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C918121"
+		(property "LCSC" "C918120"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -74,7 +74,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "C918121"
+		(property "ki_keywords" "C918120"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85,10 +85,10 @@
 				)
 			)
 		)
-		(symbol "DB125-2_54-3P-GN_0_1"
+		(symbol "DB125-2_54-2P-GN__mirror_0_1"
 			(rectangle
-				(start -2.54 5.08)
-				(end 2.54 -5.08)
+				(start -2.54 3.81)
+				(end 2.54 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -98,7 +98,7 @@
 				)
 			)
 			(circle
-				(center -1.27 3.81)
+				(center -1.27 2.54)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -109,7 +109,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 2.54 0)
+				(at -5.08 1.27 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -127,7 +127,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 0 0)
+				(at -5.08 -1.27 0)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -144,28 +144,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -5.08 -2.54 0)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 		)
-		(symbol "DB125-2_54-3P-GN_1_1"
-			(text "3P 2.54mm screw term"
-				(at 0 6.604 0)
+		(symbol "DB125-2_54-2P-GN__mirror_1_1"
+			(text "2P 2.54mm screw term (mirrored)"
+				(at 0 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)

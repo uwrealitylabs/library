@@ -226,18 +226,6 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.350013 0.9) (xy -1.350013 -0.9) (xy 1.350013 -0.9) (xy 1.350013 0.9)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "a6c1329c-7fa1-4273-a596-447161bf2b5f")
-	)
-	(fp_poly
-		(pts
 			(xy 1.901702 0.475006) (xy 1.101702 0.475006) (xy 1.101702 -0.475006) (xy 1.901702 -0.475006)
 		)
 		(stroke
@@ -247,6 +235,18 @@
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "88291422-d68d-495e-b57a-d6fd72dc0cbf")
+	)
+	(fp_poly
+		(pts
+			(xy -1.350013 0.9) (xy -1.350013 -0.9) (xy 1.350013 -0.9) (xy 1.350013 0.9)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a6c1329c-7fa1-4273-a596-447161bf2b5f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0.000381 0)
@@ -272,7 +272,7 @@
 		(uuid "9da97bf8-5a4e-4052-9fdc-5567fd9df169")
 	)
 	(embedded_fonts no)
-	(model "../../packages3d/Diode__C.3dshapes/SOD-123FL_L2.7-W1.8-LS3.8-BI.step"
+	(model "${KIPRJMOD}/library/packages3d/Diode__C.3dshapes/SOD-123FL_L2.7-W1.8-LS3.8-BI.step"
 		(offset
 			(xyz 0 0 0.15)
 		)

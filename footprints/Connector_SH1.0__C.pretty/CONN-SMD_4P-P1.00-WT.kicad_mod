@@ -181,8 +181,8 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
+		(fill no)
+		(layer "F.CrtYd")
 		(uuid "0bfbe43b-a58f-4117-b6e4-bf6310ce1959")
 	)
 	(fp_poly
@@ -316,7 +316,7 @@
 		(uuid "28a33f0e-3fef-4535-956c-0cc4b3d39f8d")
 	)
 	(embedded_fonts no)
-	(model "../../packages3d/Connector_SH1.0__C.3dshapes/CONN-SMD_4P-P1.00-WT.step"
+	(model "${KIPRJMOD}/library/packages3d/Connector_SH1.0__C.3dshapes/CONN-SMD_4P-P1.00-WT.step"
 		(offset
 			(xyz 0 -0.051994 3.06)
 		)
