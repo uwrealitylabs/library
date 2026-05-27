@@ -267,5 +267,10 @@
 			)
 		)
 	)
+	(model "${KIPRJMOD}/../library/packages3d/Sensor_Motion__C.3dshapes/TMR2615F.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 	(embedded_fonts no)
 )

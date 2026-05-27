@@ -362,7 +362,7 @@
 		(uuid "7f793fd4-5b56-47fc-bc95-8ea03829e11d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Connector_HRS_BK22__C.3dshapes/BK22C07-4DP2-0.4V_3D_STP_4800815000.stp"
+	(model "${KIPRJMOD}/../library/packages3d/Connector_HRS_BK22__C.3dshapes/BK22C07-4DP2-0.4V_3D_STP_4800815000.stp"
 		(offset
 			(xyz -0.27 -1.1 0)
 		)

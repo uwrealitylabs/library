@@ -189,7 +189,7 @@
 		(uuid "614d2b41-e567-4b8c-894e-2acfef9433b7")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Oscillator__C.3dshapes/X322512MSB4SI.step"
+	(model "${KIPRJMOD}/../library/packages3d/Oscillator__C.3dshapes/X322512MSB4SI.step"
 		(offset
 			(xyz 0 0 0)
 		)

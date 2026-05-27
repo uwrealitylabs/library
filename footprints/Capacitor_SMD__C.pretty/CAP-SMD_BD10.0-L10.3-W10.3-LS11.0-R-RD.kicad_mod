@@ -275,7 +275,7 @@
 		(uuid "664440a0-cf4f-4e1c-a5ba-233b58e1ab7c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Capacitor_SMD__C.3dshapes/CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-R-RD.step"
+	(model "${KIPRJMOD}/../library/packages3d/Capacitor_SMD__C.3dshapes/CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-R-RD.step"
 		(offset
 			(xyz -5.15 0 0)
 		)

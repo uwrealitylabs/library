@@ -561,7 +561,7 @@
 		(uuid "af6426c9-0bc9-4d30-8760-1cab3a5a8fc9")
 	)
 	(embedded_fonts no)
-	(model "../../packages3d/HOTSWAP__C.3dshapes/SMD_KEYBOARD-SW.step"
+	(model "${KIPRJMOD}/../library/packages3d/HOTSWAP__C.3dshapes/SMD_KEYBOARD-SW.step"
 		(offset
 			(xyz 0.63 3.8 0)
 		)

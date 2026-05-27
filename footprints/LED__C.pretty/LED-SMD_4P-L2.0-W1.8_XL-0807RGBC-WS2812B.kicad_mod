@@ -307,7 +307,7 @@
 		(uuid "08881fb5-cf1f-4bab-9a07-b0a48e02807d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/LED__C.3dshapes/LED-SMD_4P-L2.0-W1.8_XL-0807RGBC-WS2812B.step"
+	(model "${KIPRJMOD}/../library/packages3d/LED__C.3dshapes/LED-SMD_4P-L2.0-W1.8_XL-0807RGBC-WS2812B.step"
 		(offset
 			(xyz -1e-05 0 0)
 		)

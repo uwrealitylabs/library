@@ -318,7 +318,7 @@
 		(uuid "c25cc64a-1e88-4a44-9e4c-b2f83befe061")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Interface_CAN_LIN__C.3dshapes/DFN-8_L3.0-W3.0-P0.65-BL-EP2.45.step"
+	(model "${KIPRJMOD}/../library/packages3d/Interface_CAN_LIN__C.3dshapes/DFN-8_L3.0-W3.0-P0.65-BL-EP2.45.step"
 		(offset
 			(xyz 0 0 0)
 		)

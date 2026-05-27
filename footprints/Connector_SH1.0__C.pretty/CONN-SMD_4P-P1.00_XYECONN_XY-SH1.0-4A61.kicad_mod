@@ -268,7 +268,7 @@
 		(uuid "02f757fb-bb1d-4cdd-b5f2-c23fa59c4e39")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Connector_SH1.0__C.3dshapes/CONN-SMD_4P-P1.00_XYECONN_XY-SH1.0-4A61.step"
+	(model "${KIPRJMOD}/../library/packages3d/Connector_SH1.0__C.3dshapes/CONN-SMD_4P-P1.00_XYECONN_XY-SH1.0-4A61.step"
 		(offset
 			(xyz 0 -0.65 3.1)
 		)

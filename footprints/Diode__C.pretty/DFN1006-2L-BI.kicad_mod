@@ -202,7 +202,7 @@
 		(uuid "208bd9a7-bd8b-4f82-9bf0-ce63ea383a3a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Diode__C.3dshapes/DFN1006-2L-BI.step"
+	(model "${KIPRJMOD}/../library/packages3d/Diode__C.3dshapes/DFN1006-2L-BI.step"
 		(offset
 			(xyz 0 0 0)
 		)

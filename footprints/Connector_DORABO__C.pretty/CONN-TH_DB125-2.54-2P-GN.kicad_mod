@@ -352,7 +352,7 @@
 		(uuid "aa19b2bd-c51f-407b-964e-4481b843b1e5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Connector_DORABO__C.3dshapes/CONN-TH_DB125-2.54-2P-GN.step"
+	(model "${KIPRJMOD}/../library/packages3d/Connector_DORABO__C.3dshapes/CONN-TH_DB125-2.54-2P-GN.step"
 		(offset
 			(xyz 0 -0.1 0)
 		)

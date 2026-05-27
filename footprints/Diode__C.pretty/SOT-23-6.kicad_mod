@@ -268,7 +268,7 @@
 		(uuid "3dedf00a-aad6-4632-a0d5-5a39a8370851")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Diode__C.3dshapes/SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL.step"
+	(model "${KIPRJMOD}/../library/packages3d/Diode__C.3dshapes/SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL.step"
 		(offset
 			(xyz 0 0 0.75)
 		)

@@ -382,7 +382,7 @@
 		(uuid "fe602b22-c6f8-4bca-b974-c0d25a9aba6b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/LED__C.3dshapes/LED-SMD_4P-L3.2-W2.8-LS5.9_SK6812MINI-E.step"
+	(model "${KIPRJMOD}/../library/packages3d/LED__C.3dshapes/LED-SMD_4P-L3.2-W2.8-LS5.9_SK6812MINI-E.step"
 		(offset
 			(xyz 0 0 -0.033071)
 		)

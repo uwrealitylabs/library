@@ -318,7 +318,7 @@
 		(uuid "f9a3a913-af47-46fc-abd3-c43fd8c80d81")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/LED__C.3dshapes/LED0603-RD.step"
+	(model "${KIPRJMOD}/../library/packages3d/LED__C.3dshapes/LED0603-RD.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -189,7 +189,7 @@
 		(uuid "c224cf96-1359-4b30-aed8-9759de0801ff")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Switch.3dshapes/TS-1187A-B-A-B.step"
+	(model "${KIPRJMOD}/../library/packages3d/Switch.3dshapes/TS-1187A-B-A-B.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -274,7 +274,7 @@
 		(uuid "0718849b-ee34-4020-b9ce-b08643f5a643")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Connector_XH2.54__C.3dshapes/HDR-TH_3P-P2.50-H-F-W7.0-N.step"
+	(model "${KIPRJMOD}/../library/packages3d/Connector_XH2.54__C.3dshapes/HDR-TH_3P-P2.50-H-F-W7.0-N.step"
 		(offset
 			(xyz 0 -3.56499 3)
 		)

@@ -238,7 +238,7 @@
 		(uuid "eae96f02-aab5-4b98-91ae-8e551e46b025")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/CMC__C.3dshapes/FILTER-SMD_4P-L3.2-W2.5-BL_ACT1210D-101-2P-TL00.step"
+	(model "${KIPRJMOD}/../library/packages3d/CMC__C.3dshapes/FILTER-SMD_4P-L3.2-W2.5-BL_ACT1210D-101-2P-TL00.step"
 		(offset
 			(xyz 7.6e-05 0.000102 2.15)
 		)

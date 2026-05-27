@@ -469,7 +469,7 @@
 		(uuid "a0a79f84-f21a-4a5a-9642-49f0292ab144")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Transistor_FET__C.3dshapes/DFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP.step"
+	(model "${KIPRJMOD}/../library/packages3d/Transistor_FET__C.3dshapes/DFN-8_L3.2-W3.1-P0.65-LS3.4-BL-EP.step"
 		(offset
 			(xyz 5.08e-05 2.54e-05 0)
 		)

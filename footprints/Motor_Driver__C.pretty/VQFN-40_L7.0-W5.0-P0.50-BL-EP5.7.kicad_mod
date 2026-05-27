@@ -1418,7 +1418,7 @@
 		(uuid "65cfe647-129f-40e9-8471-c565f759c255")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Motor_Driver__C.3dshapes/VQFN-40_L7.0-W5.0-P0.50-BL-EP5.7.step"
+	(model "${KIPRJMOD}/../library/packages3d/Motor_Driver__C.3dshapes/VQFN-40_L7.0-W5.0-P0.50-BL-EP5.7.step"
 		(offset
 			(xyz 0 0 0)
 		)

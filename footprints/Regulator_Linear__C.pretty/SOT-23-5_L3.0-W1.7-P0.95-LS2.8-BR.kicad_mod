@@ -355,7 +355,7 @@
 		(uuid "7a94159c-fc67-4f91-a571-bc2b67a853ac")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Regulator_Linear__C.3dshapes/SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR.step"
+	(model "${KIPRJMOD}/../library/packages3d/Regulator_Linear__C.3dshapes/SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR.step"
 		(offset
 			(xyz 0 0 0)
 		)

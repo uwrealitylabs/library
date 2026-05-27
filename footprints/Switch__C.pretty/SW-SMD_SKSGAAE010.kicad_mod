@@ -227,7 +227,7 @@
 		(uuid "2463955f-5a44-4464-9389-3cf82aecf48e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Switch__C.3dshapes/SW-SMD_SKSGAAE010.step"
+	(model "${KIPRJMOD}/../library/packages3d/Switch__C.3dshapes/SW-SMD_SKSGAAE010.step"
 		(offset
 			(xyz 0 0 0)
 		)

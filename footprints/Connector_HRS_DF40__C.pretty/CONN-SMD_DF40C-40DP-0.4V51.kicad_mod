@@ -543,7 +543,7 @@
 		(uuid "fb4d986b-b125-492a-b707-0f304de7d8d3")
 	)
 	(embedded_fonts no)
-	(model "../../packages3d/Connector_HRS_DF40__C.3dshapes/CONN-SMD_DF40C-40DP-0.4V51.step"
+	(model "${KIPRJMOD}/../library/packages3d/Connector_HRS_DF40__C.3dshapes/CONN-SMD_DF40C-40DP-0.4V51.step"
 		(offset
 			(xyz 0 0 0)
 		)

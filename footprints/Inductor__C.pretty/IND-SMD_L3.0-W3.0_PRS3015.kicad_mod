@@ -142,7 +142,7 @@
 		(uuid "6d9527fe-5f21-4924-b032-583e64d77417")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Inductor__C.3dshapes/IND-SMD_L3.0-W3.0_PRS3015.step"
+	(model "${KIPRJMOD}/../library/packages3d/Inductor__C.3dshapes/IND-SMD_L3.0-W3.0_PRS3015.step"
 		(offset
 			(xyz -0.000127 0 1.1)
 		)

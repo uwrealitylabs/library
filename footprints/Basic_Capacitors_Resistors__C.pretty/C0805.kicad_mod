@@ -254,7 +254,7 @@
 		(uuid "fbaaae10-abac-4c73-80f6-df7fee77c446")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Basic_Capacitors_Resistors__C.3dshapes/C0805.step"
+	(model "${KIPRJMOD}/../library/packages3d/Basic_Capacitors_Resistors__C.3dshapes/C0805.step"
 		(offset
 			(xyz 0 0 0.625)
 		)

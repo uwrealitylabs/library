@@ -237,7 +237,7 @@
 		(uuid "e8b27152-3787-44e0-9944-118cefa34fbd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Transistor_BJT__C.3dshapes/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step"
+	(model "${KIPRJMOD}/../library/packages3d/Transistor_BJT__C.3dshapes/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -158,7 +158,7 @@
 		(uuid "b2443dbe-4c60-4caf-94aa-548a173faf92")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/packages3d/Capacitor_THT__C.3dshapes/CAP-TH_BD10.0-P5.00-D1.0-FD.step"
+	(model "${KIPRJMOD}/../library/packages3d/Capacitor_THT__C.3dshapes/CAP-TH_BD10.0-P5.00-D1.0-FD.step"
 		(offset
 			(xyz 0 0 12.5)
 		)
