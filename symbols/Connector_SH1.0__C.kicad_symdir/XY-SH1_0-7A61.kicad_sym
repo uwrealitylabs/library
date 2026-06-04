@@ -53,6 +53,17 @@
 				(justify left)
 			)
 		)
+		(property "Description" "7-pin 1.0mm pitch JST-SH compatible horizontal SMT connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "LCSC" "C19272001"
 			(at 0 0 0)
 			(show_name no)
@@ -76,17 +87,6 @@
 			)
 		)
 		(property "ki_keywords" "C19272001"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "7-pin 1.0mm pitch JST-SH compatible horizontal SMT connector"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -29,7 +29,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_SH1.0__C:CONN-SMD_4P-P1.00-WT"
+		(property "Footprint" "Connector_SH1.0__C:CONN-SMD_4P-P1.00_XYECONN_XY-SH1.0-4A61"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51,6 +51,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Description" "1x4P 1mm pitch horizontal SMT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "LCSC" "C19271998"
@@ -76,17 +87,6 @@
 			)
 		)
 		(property "ki_keywords" "C19271998"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x4P 1mm pitch horizontal SMT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
