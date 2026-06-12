@@ -1711,7 +1711,7 @@
 				)
 			)
 			(pin power_in line
-				(at -30.48 1.06581e-14 0)
+				(at -30.48 0 0)
 				(length 5.08)
 				(name "VDD2"
 					(effects
@@ -2296,7 +2296,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 1.06581e-14 180)
+				(at 30.48 0 180)
 				(length 5.08)
 				(name "VDDQ"
 					(effects

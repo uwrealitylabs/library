@@ -54,8 +54,8 @@
 		)
 		(symbol "HD3SS3220IRNHR_1_1"
 			(rectangle
-				(start -25.4 26.67)
-				(end 25.4 -26.67)
+				(start -25.4 27.94)
+				(end 25.4 -27.94)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -65,7 +65,7 @@
 				)
 			)
 			(text "HD3SS3220 USB-C mux"
-				(at 0 27.94 0)
+				(at 0 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -74,7 +74,7 @@
 				)
 			)
 			(text "USB-C CC"
-				(at -23.4 24.13 0)
+				(at -23.4 25.4 0)
 				(effects
 					(font
 						(size 1.0 1.0)
@@ -83,7 +83,7 @@
 				)
 			)
 			(pin input line
-				(at -30.48 21.59 0)
+				(at -30.48 22.86 0)
 				(length 5.08)
 				(name "CC1"
 					(effects
@@ -101,7 +101,7 @@
 				)
 			)
 			(pin input line
-				(at -30.48 19.05 0)
+				(at -30.48 20.32 0)
 				(length 5.08)
 				(name "CC2"
 					(effects
@@ -119,7 +119,7 @@
 				)
 			)
 			(pin input line
-				(at -30.48 16.51 0)
+				(at -30.48 17.78 0)
 				(length 5.08)
 				(name "VCONN_FAULT_N"
 					(effects
@@ -137,7 +137,7 @@
 				)
 			)
 			(text "SS COMMON"
-				(at -23.4 13.97 0)
+				(at -23.4 15.24 0)
 				(effects
 					(font
 						(size 1.0 1.0)
@@ -146,7 +146,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 11.43 0)
+				(at -30.48 12.7 0)
 				(length 5.08)
 				(name "RXN"
 					(effects
@@ -164,7 +164,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 8.89 0)
+				(at -30.48 10.16 0)
 				(length 5.08)
 				(name "RXP"
 					(effects
@@ -182,7 +182,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 6.35 0)
+				(at -30.48 7.62 0)
 				(length 5.08)
 				(name "TXN"
 					(effects
@@ -200,7 +200,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 3.81 0)
+				(at -30.48 5.08 0)
 				(length 5.08)
 				(name "TXP"
 					(effects
@@ -218,7 +218,7 @@
 				)
 			)
 			(text "SS CH1"
-				(at -23.4 1.27 0)
+				(at -23.4 2.54 0)
 				(effects
 					(font
 						(size 1.0 1.0)
@@ -227,7 +227,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -1.27 0)
+				(at -30.48 0 0)
 				(length 5.08)
 				(name "RX1N"
 					(effects
@@ -245,7 +245,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -3.81 0)
+				(at -30.48 -2.54 0)
 				(length 5.08)
 				(name "RX1P"
 					(effects
@@ -263,7 +263,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -6.35 0)
+				(at -30.48 -5.08 0)
 				(length 5.08)
 				(name "TX1N"
 					(effects
@@ -281,7 +281,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -8.89 0)
+				(at -30.48 -7.62 0)
 				(length 5.08)
 				(name "TX1P"
 					(effects
@@ -299,7 +299,7 @@
 				)
 			)
 			(text "SS CH2"
-				(at -23.4 -11.43 0)
+				(at -23.4 -10.16 0)
 				(effects
 					(font
 						(size 1.0 1.0)
@@ -308,7 +308,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -13.97 0)
+				(at -30.48 -12.7 0)
 				(length 5.08)
 				(name "RX2N"
 					(effects
@@ -326,7 +326,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -16.51 0)
+				(at -30.48 -15.24 0)
 				(length 5.08)
 				(name "RX2P"
 					(effects
@@ -344,7 +344,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -19.05 0)
+				(at -30.48 -17.78 0)
 				(length 5.08)
 				(name "TX2N"
 					(effects
@@ -362,7 +362,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -21.59 0)
+				(at -30.48 -20.32 0)
 				(length 5.08)
 				(name "TX2P"
 					(effects
@@ -380,7 +380,7 @@
 				)
 			)
 			(text "CONTROL"
-				(at 23.4 24.13 0)
+				(at 23.4 25.4 0)
 				(effects
 					(font
 						(size 1.0 1.0)
@@ -389,7 +389,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 21.59 180)
+				(at 30.48 22.86 180)
 				(length 5.08)
 				(name "ADDR"
 					(effects
@@ -407,7 +407,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 19.05 180)
+				(at 30.48 20.32 180)
 				(length 5.08)
 				(name "CURRENT_MODE"
 					(effects
@@ -425,7 +425,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 16.51 180)
+				(at 30.48 17.78 180)
 				(length 5.08)
 				(name "DIR"
 					(effects
@@ -443,7 +443,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 13.97 180)
+				(at 30.48 15.24 180)
 				(length 5.08)
 				(name "EN_CC_N"
 					(effects
@@ -461,7 +461,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 11.43 180)
+				(at 30.48 12.7 180)
 				(length 5.08)
 				(name "EN_MUX_N"
 					(effects
@@ -479,7 +479,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 8.89 180)
+				(at 30.48 10.16 180)
 				(length 5.08)
 				(name "ID"
 					(effects
@@ -497,7 +497,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 6.35 180)
+				(at 30.48 7.62 180)
 				(length 5.08)
 				(name "INT_OUT3_N"
 					(effects
@@ -515,7 +515,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 3.81 180)
+				(at 30.48 5.08 180)
 				(length 5.08)
 				(name "PORT"
 					(effects
@@ -533,7 +533,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 1.27 180)
+				(at 30.48 2.54 180)
 				(length 5.08)
 				(name "SCL_OUT2"
 					(effects
@@ -551,7 +551,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 -1.27 180)
+				(at 30.48 0 180)
 				(length 5.08)
 				(name "SDA_OUT1"
 					(effects
@@ -569,7 +569,7 @@
 				)
 			)
 			(pin input line
-				(at 30.48 -3.81 180)
+				(at 30.48 -2.54 180)
 				(length 5.08)
 				(name "VBUS_DET"
 					(effects
@@ -587,7 +587,7 @@
 				)
 			)
 			(text "POWER"
-				(at 23.4 -6.35 0)
+				(at 23.4 -5.08 0)
 				(effects
 					(font
 						(size 1.0 1.0)
@@ -596,7 +596,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -8.89 180)
+				(at 30.48 -7.62 180)
 				(length 5.08)
 				(name "VCC33"
 					(effects
@@ -614,7 +614,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -11.43 180)
+				(at 30.48 -10.16 180)
 				(length 5.08)
 				(name "VDD5"
 					(effects
@@ -632,7 +632,7 @@
 				)
 			)
 			(text "GND / PAD"
-				(at 23.4 -13.97 0)
+				(at 23.4 -12.7 0)
 				(effects
 					(font
 						(size 1.0 1.0)
@@ -641,7 +641,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -16.51 180)
+				(at 30.48 -15.24 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -659,7 +659,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -19.05 180)
+				(at 30.48 -17.78 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -677,7 +677,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -21.59 180)
+				(at 30.48 -20.32 180)
 				(length 5.08)
 				(name "PAD"
 					(effects
@@ -695,7 +695,25 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -24.13 180)
+				(at 30.48 -22.86 180)
+				(length 5.08)
+				(name "V"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "V"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -25.4 180)
 				(length 5.08)
 				(name "V"
 					(effects
