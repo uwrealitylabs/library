@@ -1,139 +1,303 @@
 (kicad_symbol_lib
 	(version 20231120)
-	(generator "easyeda2kicad")
+	(generator "gen_ic_syms")
 	(generator_version "8.0")
-(symbol "MS5351M"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (id 0)
-      (at 0 10.16 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "MS5351M"
-      (id 1)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "Oscillator__C:MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL"
-      (id 2)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://www.lcsc.com/datasheet/C1509083.pdf"
-      (id 3)
-      (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Manufacturer"
-      "杭州瑞盟"
-      (id 4)
-      (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "MPN"
-      "MS5351M"
-      (id 5)
-      (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C1509083"
-      (id 6)
-      (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "ki_keywords"
-      "Clock Generators, PLLs, Frequency Synthesizers"
-      (id 8)
-      (at 0 -25.40 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "MS5351M_0_1"
-      (rectangle
-        (start -7.62 7.62)
-        (end 7.62 -7.62)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (circle
-        (center -6.35 6.35)
-        (radius 0.38)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at -10.16 5.08 0)
-        (length 2.54)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -10.16 2.54 0)
-        (length 2.54)
-        (name "XA" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -10.16 -0.00 0)
-        (length 2.54)
-        (name "XB" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -10.16 -2.54 0)
-        (length 2.54)
-        (name "SCL" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -10.16 -5.08 0)
-        (length 2.54)
-        (name "SDA" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 10.16 -5.08 180)
-        (length 2.54)
-        (name "CLK2" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 10.16 -2.54 180)
-        (length 2.54)
-        (name "VDDO" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 10.16 -0.00 180)
-        (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 10.16 2.54 180)
-        (length 2.54)
-        (name "CLK1" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 10.16 5.08 180)
-        (length 2.54)
-        (name "CLK0" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+	(symbol "MS5351M"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS5351M"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator__C:MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MS5351M_1_1"
+			(rectangle
+				(start -25.4 15.24)
+				(end 25.4 -15.24)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "MS5351M"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(text "XTAL"
+				(at -23.4 12.7 0)
+				(effects
+					(font
+						(size 1.0 1.0)
+					)
+					(justify left)
+				)
+			)
+			(pin passive line
+				(at -30.48 10.16 0)
+				(length 5.08)
+				(name "XA"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(pin passive line
+				(at -30.48 7.62 0)
+				(length 5.08)
+				(name "XB"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(text "I2C"
+				(at -23.4 5.08 0)
+				(effects
+					(font
+						(size 1.0 1.0)
+					)
+					(justify left)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 2.54 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 0 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(text "POWER"
+				(at -23.4 -2.54 0)
+				(effects
+					(font
+						(size 1.0 1.0)
+					)
+					(justify left)
+				)
+			)
+			(pin power_in line
+				(at -30.48 -5.08 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(pin power_in line
+				(at -30.48 -7.62 0)
+				(length 5.08)
+				(name "VDDO"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(text "GND"
+				(at -23.4 -10.16 0)
+				(effects
+					(font
+						(size 1.0 1.0)
+					)
+					(justify left)
+				)
+			)
+			(pin power_in line
+				(at -30.48 -12.7 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(text "CLK OUT"
+				(at 23.4 12.7 0)
+				(effects
+					(font
+						(size 1.0 1.0)
+					)
+					(justify right)
+				)
+			)
+			(pin output line
+				(at 30.48 10.16 180)
+				(length 5.08)
+				(name "CLK0"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(pin output line
+				(at 30.48 7.62 180)
+				(length 5.08)
+				(name "CLK1"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+			(pin output line
+				(at 30.48 5.08 180)
+				(length 5.08)
+				(name "CLK2"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+						(size 1.27 1.27)
+					)
+					)
+				)
+			)
+		)
+	)
 )
