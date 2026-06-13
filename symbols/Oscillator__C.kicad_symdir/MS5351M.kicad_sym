@@ -127,7 +127,7 @@
 					(justify left)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -30.48 2.54 0)
 				(length 5.08)
 				(name "SCL"

@@ -82,7 +82,7 @@
 					(justify left)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -30.48 5.08 0)
 				(length 5.08)
 				(name "CLK"
