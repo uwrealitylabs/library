@@ -112,7 +112,7 @@
       (xy 0.750001 1.950001)
       (xy 0.700001 2.000001)
       (xy 0.699999 2.000001)
-    ) (layer "F.Cu") (width 0) (fill solid))
+    ) (layer "F.Fab") (width 0) (fill solid))
   (fp_poly (pts
       (xy 0.650001 2.4)
       (xy 0.649999 2.000001)
@@ -183,7 +183,7 @@
       (xy 1.4 1.900001)
       (xy 1.062131 1.900001)
       (xy 1.026777 1.885356)
-    ) (layer "F.Cu") (width 0) (fill solid))
+    ) (layer "F.Fab") (width 0) (fill solid))
   (fp_poly (pts
       (xy 0.929289 1.858576)
       (xy 0.923074 1.851002)
@@ -251,7 +251,7 @@
       (xy -1.4 1.900001)
       (xy -1.062131 1.900001)
       (xy -1.026777 1.885356)
-    ) (layer "F.Cu") (width 0) (fill solid))
+    ) (layer "F.Fab") (width 0) (fill solid))
   (fp_poly (pts
       (xy -0.929289 1.858576)
       (xy -0.99142 1.92071)
@@ -321,7 +321,7 @@
       (xy -0.750001 1.950001)
       (xy -0.700001 2.000001)
       (xy -0.699999 2.000001)
-    ) (layer "F.Cu") (width 0) (fill solid))
+    ) (layer "F.Fab") (width 0) (fill solid))
   (fp_poly (pts
       (xy -0.664657 1.964634)
       (xy -0.664644 1.964647)
@@ -392,7 +392,7 @@
       (xy -1.4 -1.900001)
       (xy -1.062131 -1.900001)
       (xy -1.026777 -1.885356)
-    ) (layer "F.Cu") (width 0) (fill solid))
+    ) (layer "F.Fab") (width 0) (fill solid))
   (fp_poly (pts
       (xy -0.929289 -1.858576)
       (xy -0.923074 -1.851002)
@@ -462,7 +462,7 @@
       (xy -0.750001 -1.950001)
       (xy -0.700001 -2.000001)
       (xy -0.699999 -2.000001)
-    ) (layer "F.Cu") (width 0) (fill solid))
+    ) (layer "F.Fab") (width 0) (fill solid))
   (fp_poly (pts
       (xy -0.664657 -1.964634)
       (xy -0.714647 -1.914647)
@@ -533,7 +533,7 @@
       (xy 1.4 -1.900001)
       (xy 1.062131 -1.900001)
       (xy 1.026777 -1.885356)
-    ) (layer "F.Cu") (width 0) (fill solid))
+    ) (layer "F.Fab") (width 0) (fill solid))
   (fp_poly (pts
       (xy 0.929289 -1.858576)
       (xy 0.99142 -1.92071)
@@ -603,7 +603,7 @@
       (xy 0.750001 -1.950001)
       (xy 0.700001 -2.000001)
       (xy 0.699999 -2.000001)
-    ) (layer "F.Cu") (width 0) (fill solid))
+    ) (layer "F.Fab") (width 0) (fill solid))
   (fp_poly (pts
       (xy 0.650001 -2.4)
       (xy 0.650961 -2.409754)
@@ -698,10 +698,10 @@
   (pad "29" smd rect (at -0.399999 -2.200001 90) (size 0.499999 0.2) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "30" smd rect (at -0.799998 -2.200001 90) (size 0.299999 0.2) (layers "F.Cu"))
   (pad "31" smd rect (at 0 0) (size 1.2 3.200001) (layers "F.Cu" "F.Mask"))
-  (pad "V" thru_hole circle (at 0.349999 -1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
-  (pad "V" thru_hole circle (at 0.349999 0) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
-  (pad "V" thru_hole circle (at 0.349999 1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
-  (pad "V" thru_hole circle (at -0.349999 1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
-  (pad "V" thru_hole circle (at -0.349999 0) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
-  (pad "V" thru_hole circle (at -0.349999 -1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
+  (pad "31" thru_hole circle (at 0.349999 -1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
+  (pad "31" thru_hole circle (at 0.349999 0) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
+  (pad "31" thru_hole circle (at 0.349999 1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
+  (pad "31" thru_hole circle (at -0.349999 1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
+  (pad "31" thru_hole circle (at -0.349999 0) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
+  (pad "31" thru_hole circle (at -0.349999 -1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
 )

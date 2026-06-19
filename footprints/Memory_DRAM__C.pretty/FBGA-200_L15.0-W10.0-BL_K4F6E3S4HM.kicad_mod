@@ -420,7 +420,8 @@
 	(fp_circle (center -6.82 4.40) (end -6.75 4.40) (layer F.Fab) (width 0.15))
 	(fp_line (start -7.50 5.00) (end 7.50 5.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 7.50 5.00) (end 7.50 -5.00) (layer F.CrtYd) (width 0.05))
-	(fp_line (start 7.50 -5.00) (end -7.50 5.00) (layer F.CrtYd) (width 0.05))
+	(fp_line (start 7.50 -5.00) (end -7.50 -5.00) (layer F.CrtYd) (width 0.05))
+	(fp_line (start -7.50 -5.00) (end -7.50 5.00) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy -6.799986 5.099990) (xy -7.599985 5.099990) (xy -7.599985 4.299991) (xy -6.799986 5.099990)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
 	(model "${KIPRJMOD}/library/packages3d/Memory_DRAM__C.3dshapes/FBGA-200_L15.0-W10.0-BL_K4F6E3S4HM.step"
 		(offset (xyz 0.000 0.000 0.000))
