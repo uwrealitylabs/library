@@ -704,4 +704,8 @@
   (pad "31" thru_hole circle (at -0.349999 1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
   (pad "31" thru_hole circle (at -0.349999 0) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
   (pad "31" thru_hole circle (at -0.349999 -1.2) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask))
+	(fp_line (start -1.7 -2.55) (end 1.7 -2.55) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start 1.7 -2.55) (end 1.7 2.55) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start 1.7 2.55) (end -1.7 2.55) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start -1.7 2.55) (end -1.7 -2.55) (layer "F.CrtYd") (width 0.05))
 )
