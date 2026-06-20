@@ -28,13 +28,16 @@
 	(fp_circle (center -1.59 2.11) (end -1.44 2.11) (layer F.SilkS) (width 0.30))
 	(fp_circle (center -1.02 2.79) (end -0.92 2.79) (layer Cmts.User) (width 0.20))
 	(fp_circle (center -1.50 2.45) (end -1.47 2.45) (layer F.SilkS) (width 0.06))
-	(fp_line (start -1.50 1.50) (end -1.50 -1.50) (layer F.CrtYd) (width 0.05))
-	(fp_line (start -1.50 -1.50) (end 1.50 -1.50) (layer F.CrtYd) (width 0.05))
-	(fp_line (start 1.50 -1.50) (end 1.50 1.50) (layer F.CrtYd) (width 0.05))
-	(fp_line (start 1.50 1.50) (end -1.50 1.50) (layer F.CrtYd) (width 0.05))
+
+	
+	
 	(model "${KIPRJMOD}/library/packages3d/Oscillator__C.3dshapes/MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
+	(fp_line (start -1.65 -3.07) (end 1.65 -3.07) (layer F.CrtYd) (width 0.05))
+	(fp_line (start 1.65 -3.07) (end 1.65 3.07) (layer F.CrtYd) (width 0.05))
+	(fp_line (start 1.65 3.07) (end -1.65 3.07) (layer F.CrtYd) (width 0.05))
+	(fp_line (start -1.65 3.07) (end -1.65 -3.07) (layer F.CrtYd) (width 0.05))
 )

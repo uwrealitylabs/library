@@ -92,13 +92,16 @@
 	(fp_circle (center -2.40 -1.78) (end -2.27 -1.78) (layer F.Paste) (width 0.26))
 	(fp_circle (center 3.05 -2.48) (end 3.18 -2.48) (layer F.Paste) (width 0.26))
 	(fp_circle (center -3.05 -2.48) (end -2.92 -2.48) (layer F.Paste) (width 0.26))
-	(fp_line (start -4.87 5.08) (end -4.87 -4.27) (layer F.CrtYd) (width 0.05))
-	(fp_line (start -4.87 -4.27) (end 4.87 -4.27) (layer F.CrtYd) (width 0.05))
-	(fp_line (start 4.87 -4.27) (end 4.87 5.08) (layer F.CrtYd) (width 0.05))
-	(fp_line (start 4.87 5.08) (end -4.87 5.08) (layer F.CrtYd) (width 0.05))
+
+	
+	
 	(model "${KIPRJMOD}/library/packages3d/Connector_USB__C.3dshapes/USB-3.1-SMD_24P-L9.7-W10.7-H4.0.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
 	)
+	(fp_line (start -5.15 -4.42) (end 5.15 -4.42) (layer F.CrtYd) (width 0.05))
+	(fp_line (start 5.15 -4.42) (end 5.15 5.23) (layer F.CrtYd) (width 0.05))
+	(fp_line (start 5.15 5.23) (end -5.15 5.23) (layer F.CrtYd) (width 0.05))
+	(fp_line (start -5.15 5.23) (end -5.15 -4.42) (layer F.CrtYd) (width 0.05))
 )

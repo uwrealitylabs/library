@@ -238,22 +238,9 @@
 		(layer "Eco2.User")
 		(uuid "1189c326-a557-4425-8cea-c7b7e6484841")
 	)
-	(fp_rect
-		(start -7 -7)
-		(end 7 7)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "B.CrtYd")
-		(uuid "e7b2b05d-0f14-4153-a3bf-5a10fbf38e14")
-	)
+
 	
-	
-	
-	
-	
+
 	(fp_arc
 		(start 0.2 -2.70022)
 		(mid 1.670503 -2.183399)
@@ -447,40 +434,14 @@
 			(xyz -0 -0 -180)
 		)
 	)
-	(fp_line
-		(start -7.414824 -6.75022)
-		(end 8.685176 -6.75022)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 8.685176 -6.75022)
-		(end 8.685176 -0.86022)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 8.685176 -0.86022)
-		(end -7.414824 -0.86022)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -7.414824 -0.86022)
-		(end -7.414824 -6.75022)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
+
+	
+	(fp_line (start -7.565 -6.9) (end 8.835 -6.9) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start 8.835 -6.9) (end 8.835 2.144) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start 8.835 2.144) (end -7.565 2.144) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start -7.565 2.144) (end -7.565 -6.9) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start -7.515 -7.15) (end 8.785 -7.15) (layer "B.CrtYd") (width 0.05))
+	(fp_line (start 8.785 -7.15) (end 8.785 7.15) (layer "B.CrtYd") (width 0.05))
+	(fp_line (start 8.785 7.15) (end -7.515 7.15) (layer "B.CrtYd") (width 0.05))
+	(fp_line (start -7.515 7.15) (end -7.515 -7.15) (layer "B.CrtYd") (width 0.05))
 )

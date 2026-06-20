@@ -334,18 +334,7 @@
 		(layer "F.SilkS")
 		(uuid "93e935bd-ea63-438a-82cf-d82ec433d495")
 	)
-	(fp_poly
-		(pts
-			(xy -0.849987 0.649987) (xy -0.849987 -0.650013) (xy 0.850013 -0.650013) (xy 0.850013 0.649987)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "46330a06-ae18-47bd-9ab7-068d9dd8ba8a")
-	)
+	
 	(fp_poly
 		(pts
 			(xy 0.799949 0.174956) (xy 0.799949 -0.175057) (xy 1.299975 -0.175057) (xy 1.299975 0.174956)
@@ -419,4 +408,8 @@
 			(xyz -0 -0 -0)
 		)
 	)
+	(fp_line (start -1.605 -0.8) (end 1.605 -0.8) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start 1.605 -0.8) (end 1.605 0.8) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start 1.605 0.8) (end -1.605 0.8) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start -1.605 0.8) (end -1.605 -0.8) (layer "F.CrtYd") (width 0.05))
 )

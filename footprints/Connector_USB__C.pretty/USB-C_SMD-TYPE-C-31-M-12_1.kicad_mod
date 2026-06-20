@@ -834,16 +834,8 @@
 		)
 	)
 
-	(fp_poly
-		(pts
-			(xy -4.470028 5.093904) (xy -4.470028 -2.256109) (xy 4.470003 -2.256109) (xy 4.470003 5.093904)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "3b672695-e1cf-4d18-a642-b28effa01d78")
-	)
+	(fp_line (start -5.075 -3.274) (end 5.075 -3.274) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start 5.075 -3.274) (end 5.075 5.244) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start 5.075 5.244) (end -5.075 5.244) (layer "F.CrtYd") (width 0.05))
+	(fp_line (start -5.075 5.244) (end -5.075 -3.274) (layer "F.CrtYd") (width 0.05))
 )

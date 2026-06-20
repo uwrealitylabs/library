@@ -25,38 +25,9 @@
   (pad 8 smd circle (at 0.0 -0.635 180.0) (size 0.7874 0.7874) (layers F.Cu F.Mask) (solder_mask_margin 0.102))
   (pad 9 smd circle (at -1.27 -0.635 180.0) (size 0.7874 0.7874) (layers F.Cu F.Mask) (solder_mask_margin 0.102))
   (pad 10 smd circle (at -2.54 -0.635 180.0) (size 0.7874 0.7874) (layers F.Cu F.Mask) (solder_mask_margin 0.102))
-  (fp_poly
-    (pts
-      (xy 1.13234 -5.122)
-      (xy 2.6795 -5.122)
-      (xy 2.6795 -3.70603)
-      (xy 1.13234 -3.70603)
-    ) (layer B.CrtYd) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy -4.59279 -5.122)
-      (xy -3.0355 -5.122)
-      (xy -3.0355 -3.70669)
-      (xy -4.59279 -3.70669)
-    ) (layer B.CrtYd) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy -4.59038 3.7)
-      (xy -3.0355 3.7)
-      (xy -3.0355 5.12857)
-      (xy -4.59038 5.12857)
-    ) (layer B.CrtYd) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy 1.13235 3.7)
-      (xy 2.6795 3.7)
-      (xy 2.6795 5.13037)
-      (xy 1.13235 5.13037)
-    ) (layer B.CrtYd) (width 0.01)
-  )
+
+  
+  
   (fp_line (start -6.17 -3.72795) (end 6.17 -3.72795) (layer F.Fab) (width 0.127))
   (fp_line (start 6.17 -3.72795) (end 6.17 3.72795) (layer F.Fab) (width 0.127))
   (fp_line (start 6.17 3.72795) (end -6.17 3.72795) (layer F.Fab) (width 0.127))
@@ -69,10 +40,8 @@
   (fp_line (start 0.5 3.72795) (end -2.35 3.72795) (layer F.SilkS) (width 0.127))
   (fp_line (start -5.25 3.72795) (end -6.17 3.72795) (layer F.SilkS) (width 0.127))
   (fp_line (start 6.17 -3.72795) (end 6.17 3.72795) (layer F.SilkS) (width 0.127))
-  (fp_line (start -6.42 -3.978) (end 6.42 -3.978) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 6.42 -3.978) (end 6.42 3.978) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 6.42 3.978) (end -6.42 3.978) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -6.42 3.978) (end -6.42 -3.978) (layer F.CrtYd) (width 0.05))
+
+  
   (fp_circle (center -2.6 4.38128) (end -2.48 4.38128) (layer F.SilkS) (width 0.24))
   (zone (net 0) (net_name "") (layer F.Cu) (hatch full 0.508)
     (connect_pads (clearance 0))
@@ -1288,4 +1257,12 @@
     )
   )
   (fp_circle (center -2.59492 4.38128) (end -2.47492 4.38128) (layer F.Fab) (width 0.24))
+	(fp_line (start -6.57 -4.128) (end 6.57 -4.128) (layer F.CrtYd) (width 0.05))
+	(fp_line (start 6.57 -4.128) (end 6.57 4.128) (layer F.CrtYd) (width 0.05))
+	(fp_line (start 6.57 4.128) (end -6.57 4.128) (layer F.CrtYd) (width 0.05))
+	(fp_line (start -6.57 4.128) (end -6.57 -4.128) (layer F.CrtYd) (width 0.05))
+	(fp_line (start -5.147 -5.272) (end 4.455 -5.272) (layer B.CrtYd) (width 0.05))
+	(fp_line (start 4.455 -5.272) (end 4.455 5.28) (layer B.CrtYd) (width 0.05))
+	(fp_line (start 4.455 5.28) (end -5.147 5.28) (layer B.CrtYd) (width 0.05))
+	(fp_line (start -5.147 5.28) (end -5.147 -5.272) (layer B.CrtYd) (width 0.05))
 )
